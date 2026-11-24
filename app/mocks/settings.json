@@ -1,0 +1,11 @@
+{
+  "callerName": "RoboCall Demo Store",
+  "voice": "female-1",
+  "language": "en",
+  "timezone": "America/New_York",
+  "callingHoursStart": "09:00",
+  "callingHoursEnd": "20:00",
+  "retryDelayMinutes": 30,
+  "maxAttemptsPerOrder": 3,
+  "requireConsent": true
+}
