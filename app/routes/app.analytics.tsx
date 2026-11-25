@@ -18,6 +18,7 @@ import {
   computeFunnel,
   computeKpis,
   countAddressQuality,
+  worstAddresses,
   countSkipReasons,
   percentChange,
 } from "../utils/stats";
@@ -29,6 +30,7 @@ import {
 } from "../utils/format";
 
 const RANGE_OPTIONS = [7, 30] as const;
+const ADDRESS_ISSUES_SHOWN = 3;
 type RangeDays = (typeof RANGE_OPTIONS)[number];
 
 function parseRange(value: string | null): RangeDays {
@@ -62,6 +64,7 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
     skips: countSkipReasons(current),
     trend: computeDailyTrend(current, windows.current, shop.timezone),
     addressQuality: countAddressQuality(current),
+    addressIssues: worstAddresses(current, ADDRESS_ISSUES_SHOWN),
   };
 };
 
@@ -148,11 +151,12 @@ export default function Analytics() {
 
       {/* Equal-height pair: both cards stretch to the taller one. */}
       <div className="pk-columns pk-columns--equal">
-        <div className="pk-card">
+        <div className="pk-card pk-card--flex">
           <div className="pk-cardhead">
             <s-heading>Daily results</s-heading>
           </div>
           <StackedBarChart
+            isFlexible
             description={`Confirmed, cancelled, and unreachable calls per day, ${data.windowLabel}`}
             series={[
               {
@@ -181,7 +185,10 @@ export default function Analytics() {
             }))}
           />
         </div>
-        <AddressQualityCard counts={data.addressQuality} />
+        <AddressQualityCard
+          counts={data.addressQuality}
+          issues={data.addressIssues}
+        />
       </div>
     </AppPage>
   );

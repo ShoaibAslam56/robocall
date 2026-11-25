@@ -155,3 +155,28 @@ export function countAddressQuality(
 export function totalTalkSeconds(call: CallRecord): number {
   return call.attempts.reduce((sum, a) => sum + a.durationSeconds, 0);
 }
+
+export interface AddressIssue {
+  id: string;
+  orderName: string;
+  customerName: string;
+  city: string;
+  score: number;
+  quality: AddressQuality;
+}
+
+/** Orders whose address isn't complete, worst score first. */
+export function worstAddresses(calls: Calls, limit: number): AddressIssue[] {
+  return calls
+    .filter((c) => c.addressQuality !== "complete")
+    .map((c) => ({
+      id: c.id,
+      orderName: c.orderName,
+      customerName: c.customerName,
+      city: c.city,
+      score: c.addressScore,
+      quality: c.addressQuality,
+    }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, limit);
+}

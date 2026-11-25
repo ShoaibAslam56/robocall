@@ -1,3 +1,4 @@
+import { useElementSize } from "../../hooks/useElementSize";
 import { CHART_COLORS } from "./colors";
 
 export interface ChartSeries {
@@ -16,10 +17,12 @@ interface StackedBarChartProps {
   series: readonly ChartSeries[];
   /** Short text for screen readers, e.g. "Calls per day for the last 7 days". */
   description: string;
+  /** Grow to fill the parent's height (parent must be a flex column). */
+  isFlexible?: boolean;
 }
 
-const WIDTH = 640;
-const HEIGHT = 220;
+// Default drawing size; also what the server renders before measuring.
+const DEFAULT_SIZE = { width: 640, height: 220 };
 const PADDING = { top: 12, right: 8, bottom: 28, left: 32 };
 const GRID_LINES = 4;
 const MAX_X_LABELS = 10;
@@ -35,7 +38,12 @@ export function StackedBarChart({
   data,
   series,
   description,
+  isFlexible = false,
 }: StackedBarChartProps) {
+  // In flexible mode the drawing uses the plot area's real pixel size, so
+  // bars stretch to fill the card while text stays 11px.
+  const { ref: plotRef, size } = useElementSize<HTMLDivElement>(DEFAULT_SIZE);
+  const { width: WIDTH, height: HEIGHT } = isFlexible ? size : DEFAULT_SIZE;
   const totals = data.map((d) =>
     series.reduce((sum, s) => sum + (d.values[s.key] ?? 0), 0),
   );
@@ -48,81 +56,83 @@ export function StackedBarChart({
   const y = (v: number) => PADDING.top + plotH - (v / yMax) * plotH;
 
   return (
-    <s-stack direction="block" gap="small">
-      <svg
-        viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
-        width="100%"
-        role="img"
-        aria-label={description}
-        style={{ display: "block" }}
-      >
-        {Array.from({ length: GRID_LINES + 1 }, (_, i) => {
-          const value = (yMax / GRID_LINES) * i;
-          return (
-            <g key={value}>
-              <line
-                x1={PADDING.left}
-                x2={WIDTH - PADDING.right}
-                y1={y(value)}
-                y2={y(value)}
-                stroke={CHART_COLORS.grid}
-              />
-              <text
-                x={PADDING.left - 8}
-                y={y(value)}
-                fontSize="11"
-                fill={CHART_COLORS.axis}
-                textAnchor="end"
-                dominantBaseline="middle"
-              >
-                {value}
-              </text>
-            </g>
-          );
-        })}
-
-        {data.map((d, i) => {
-          const x = PADDING.left + slot * i + (slot - barW) / 2;
-          let stackTop = 0;
-          return (
-            <g key={d.label}>
-              <title>{`${d.label}: ${series
-                .map((s) => `${s.label} ${d.values[s.key] ?? 0}`)
-                .join(", ")}`}</title>
-              {series.map((s) => {
-                const value = d.values[s.key] ?? 0;
-                if (value === 0) return null;
-                const top = y(stackTop + value);
-                const height = y(stackTop) - top;
-                stackTop += value;
-                return (
-                  <rect
-                    key={s.key}
-                    x={x}
-                    y={top}
-                    width={barW}
-                    height={height}
-                    fill={s.color}
-                  />
-                );
-              })}
-              {i % labelEvery === 0 ? (
+    <div className={`pk-chart${isFlexible ? " pk-chart--fill" : ""}`}>
+      <div ref={plotRef} className={isFlexible ? "pk-chart__plot" : undefined}>
+        <svg
+          viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+          width="100%"
+          role="img"
+          aria-label={description}
+          style={{ display: "block" }}
+        >
+          {Array.from({ length: GRID_LINES + 1 }, (_, i) => {
+            const value = (yMax / GRID_LINES) * i;
+            return (
+              <g key={value}>
+                <line
+                  x1={PADDING.left}
+                  x2={WIDTH - PADDING.right}
+                  y1={y(value)}
+                  y2={y(value)}
+                  stroke={CHART_COLORS.grid}
+                />
                 <text
-                  x={x + barW / 2}
-                  y={HEIGHT - 8}
+                  x={PADDING.left - 8}
+                  y={y(value)}
                   fontSize="11"
                   fill={CHART_COLORS.axis}
-                  textAnchor="middle"
+                  textAnchor="end"
+                  dominantBaseline="middle"
                 >
-                  {d.label}
+                  {value}
                 </text>
-              ) : null}
-            </g>
-          );
-        })}
-      </svg>
+              </g>
+            );
+          })}
+
+          {data.map((d, i) => {
+            const x = PADDING.left + slot * i + (slot - barW) / 2;
+            let stackTop = 0;
+            return (
+              <g key={d.label}>
+                <title>{`${d.label}: ${series
+                  .map((s) => `${s.label} ${d.values[s.key] ?? 0}`)
+                  .join(", ")}`}</title>
+                {series.map((s) => {
+                  const value = d.values[s.key] ?? 0;
+                  if (value === 0) return null;
+                  const top = y(stackTop + value);
+                  const height = y(stackTop) - top;
+                  stackTop += value;
+                  return (
+                    <rect
+                      key={s.key}
+                      x={x}
+                      y={top}
+                      width={barW}
+                      height={height}
+                      fill={s.color}
+                    />
+                  );
+                })}
+                {i % labelEvery === 0 ? (
+                  <text
+                    x={x + barW / 2}
+                    y={HEIGHT - 8}
+                    fontSize="11"
+                    fill={CHART_COLORS.axis}
+                    textAnchor="middle"
+                  >
+                    {d.label}
+                  </text>
+                ) : null}
+              </g>
+            );
+          })}
+        </svg>
+      </div>
       <ChartLegend items={series} />
-    </s-stack>
+    </div>
   );
 }
 

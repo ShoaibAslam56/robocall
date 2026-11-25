@@ -1,0 +1,37 @@
+# Pakka call notice: a note on the Thank you page telling customers to
+# expect a confirmation call, so they pick up instead of ignoring an
+# unknown number. Merchants place it with the checkout editor and can edit
+# the text there. No backend needed.
+#
+# Configuration reference:
+# https://shopify.dev/docs/api/checkout-ui-extensions/latest/configuration
+
+api_version = "2026-10"
+
+[[extensions]]
+name = "Pakka call notice"
+handle = "thank-you-notice"
+type = "ui_extension"
+uid = "7279f822-efc2-de03-15e3-1df8f893f71f1f0b0001"
+
+# Thank you page only: shown right after the order, when the call is coming.
+[[extensions.targeting]]
+module = "./src/ThankYouNotice.jsx"
+target = "purchase.thank-you.block.render"
+
+# No capabilities: the notice reads nothing and calls nothing.
+
+# Editable in the checkout editor. Left empty, the defaults in
+# locales/en.default.json are used.
+[extensions.settings]
+[[extensions.settings.fields]]
+key = "heading"
+type = "single_line_text_field"
+name = "Heading"
+description = "Leave empty for: We'll call you to confirm your order"
+
+[[extensions.settings.fields]]
+key = "message"
+type = "multi_line_text_field"
+name = "Message"
+description = "Leave empty for the default message with your store name"

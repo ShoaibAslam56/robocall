@@ -1,0 +1,5 @@
+{
+  "defaultHeading": "We'll call you to confirm your order",
+  "defaultMessage": "{{store}} will call you in a few minutes to confirm your order. Please pick up and press 1 to confirm.",
+  "defaultMessageNoStore": "We'll call you in a few minutes to confirm your order. Please pick up and press 1 to confirm."
+}

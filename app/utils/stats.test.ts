@@ -11,6 +11,7 @@ import {
   percentChange,
   percentOf,
   totalTalkSeconds,
+  worstAddresses,
 } from "./stats";
 
 const notCalled = (skipReason: "duplicate" | "invalid_number" | "filtered") =>
@@ -192,5 +193,37 @@ describe("totalTalkSeconds", () => {
     expect(
       totalTalkSeconds(makeCall({ attempts: [missed(), answered(42)] })),
     ).toBe(42);
+  });
+});
+
+describe("worstAddresses", () => {
+  test("lists only non-complete addresses, lowest score first, up to the limit", () => {
+    const issues = worstAddresses(
+      [
+        makeCall({
+          orderName: "#1",
+          addressQuality: "partial",
+          addressScore: 55,
+        }),
+        makeCall({
+          orderName: "#2",
+          addressQuality: "complete",
+          addressScore: 90,
+        }),
+        makeCall({
+          orderName: "#3",
+          addressQuality: "incomplete",
+          addressScore: 12,
+        }),
+        makeCall({
+          orderName: "#4",
+          addressQuality: "incomplete",
+          addressScore: 30,
+        }),
+      ],
+      2,
+    );
+
+    expect(issues.map((i) => i.orderName)).toEqual(["#3", "#4"]);
   });
 });

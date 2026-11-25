@@ -424,3 +424,16 @@ html, body {
 /* Reassurance row under the cards. */
 .pk-trust { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 24px; padding: 4px 0; }
 .pk-trust__item { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--pk-text-2); }
+
+/* ── Charts ─────────────────────────────────────────────── */
+
+.pk-chart { display: flex; flex-direction: column; gap: 0.5rem; }
+/* Fill mode: the chart takes the card's leftover height. The plot keeps a
+   minimum height but its SVG is absolutely positioned, so the chart never
+   pushes the card taller: it only fills the height the row already has. */
+.pk-chart--fill { flex: 1 1 auto; }
+.pk-chart__plot { position: relative; flex: 1 1 auto; min-height: 220px; }
+.pk-chart__plot > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* A card whose children can stretch (e.g. a flexible chart). */
+.pk-card--flex { display: flex; flex-direction: column; }

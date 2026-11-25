@@ -43,7 +43,7 @@ export function DashboardTiles({
             variant={isThankYouNoticeOn ? "secondary" : "primary"}
             onClick={() =>
               showDemoToast(
-                "this would open the checkout editor on the Thank you page",
+                "add it in Settings → Checkout → Customize → Thank you page → Add app block → Pakka call notice",
               )
             }
           >
