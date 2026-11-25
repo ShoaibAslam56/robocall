@@ -1,0 +1,171 @@
+[
+  {
+    "category": "Order confirmation",
+    "rows": [
+      {
+        "feature": "Orders called per month",
+        "values": [
+          "1,000",
+          "2,500",
+          "Unlimited"
+        ]
+      },
+      {
+        "feature": "Press 1 to confirm, 2 to cancel",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Press 3 for a call-back",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Free retries",
+        "values": [
+          "2",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "feature": "Break hours (Jummah, iftar)",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Voice",
+    "rows": [
+      {
+        "feature": "Ready-made Urdu and English voices",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Your own recordings",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Delivery event calls",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Feedback calls after delivery",
+        "values": [
+          false,
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order protection",
+    "rows": [
+      {
+        "feature": "AI address check",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Duplicate order detection",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Filter by city, COD amount, and tags",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Auto-cancel unconfirmed orders",
+        "values": [
+          false,
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Campaigns and reports",
+    "rows": [
+      {
+        "feature": "Call logs",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "CSV export",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Bulk campaigns",
+        "values": [
+          false,
+          false,
+          true
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Support",
+    "rows": [
+      {
+        "feature": "Email support",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "feature": "Priority WhatsApp support",
+        "values": [
+          false,
+          false,
+          true
+        ]
+      }
+    ]
+  }
+]

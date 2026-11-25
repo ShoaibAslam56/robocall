@@ -1,0 +1,22 @@
+[
+  {
+    "q": "What is an answered 30-second pulse?",
+    "a": "You're charged only when the customer picks up. Every started 30 seconds of an answered call is one pulse. A 22-second confirmation call is one pulse; a 40-second call is two."
+  },
+  {
+    "q": "Do I pay for retries or unanswered calls?",
+    "a": "No. Retries, busy lines, and calls nobody answers are free."
+  },
+  {
+    "q": "What happens if I go over my plan's order limit?",
+    "a": "Orders above the limit aren't called, and they show as “Plan limit reached” in Call logs. Switch plans any time to raise the limit."
+  },
+  {
+    "q": "How do I pay?",
+    "a": "Through Shopify. The plan fee and usage charges appear on your normal Shopify bill, in USD."
+  },
+  {
+    "q": "Can I change or cancel my plan?",
+    "a": "Yes, any time. Changes apply right away, and uninstalling the app cancels the plan."
+  }
+]

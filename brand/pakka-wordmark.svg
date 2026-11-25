@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -3 366 146" width="366" height="146" role="img" aria-label="Pakka">
+  <g fill="none" stroke="#1F2124" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="30" cy="70" r="30"/><path d="M0 40 V135"/><circle cx="114" cy="70" r="30"/><path d="M144 40 V100"/><path d="M168 5 V100 M168 76 L200 40 M180 62.5 L204 100"/><path d="M224 5 V100 M224 76 L256 40 M236 62.5 L260 100"/><circle cx="312" cy="70" r="30"/><path d="M342 40 V100"/>
+  </g>
+</svg>

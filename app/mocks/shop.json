@@ -1,0 +1,21 @@
+{
+  "name": "Lorial PK",
+  "currency": "PKR",
+  "timezone": "Asia/Karachi",
+  "today": "2026-11-24",
+  "subscription": {
+    "planId": "growth",
+    "status": "trial",
+    "trialEndsOn": "2026-11-27"
+  },
+  "usage": {
+    "ordersThisMonth": 108,
+    "orderLimit": 2500,
+    "answeredPulsesThisMonth": 241,
+    "usageChargesUsd": 4.1
+  },
+  "support": {
+    "email": "support@example.com",
+    "whatsapp": "+92 300 0000000"
+  }
+}

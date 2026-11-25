@@ -1,0 +1,8 @@
+[
+  { "id": "ur-female-1", "name": "Urdu · Female (Sana)", "language": "ur", "kind": "default", "durationSeconds": 22 },
+  { "id": "ur-male-1", "name": "Urdu · Male (Bilal)", "language": "ur", "kind": "default", "durationSeconds": 21 },
+  { "id": "en-female-1", "name": "English · Female (Emma)", "language": "en", "kind": "default", "durationSeconds": 19 },
+  { "id": "en-male-1", "name": "English · Male (Adam)", "language": "en", "kind": "default", "durationSeconds": 20 },
+  { "id": "custom-lorial-ur", "name": "Lorial PK greeting (Urdu)", "language": "ur", "kind": "custom", "durationSeconds": 26 },
+  { "id": "custom-sale-1111", "name": "11.11 sale announcement", "language": "ur", "kind": "custom", "durationSeconds": 31 }
+]

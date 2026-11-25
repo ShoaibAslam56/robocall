@@ -1,4 +1,12 @@
+import type { LinksFunction } from "react-router";
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
+
+import pakkaStyles from "./styles/pakka.css?url";
+
+// One stylesheet for the whole app, same as Reviews Junction and Loyalty.
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: pakkaStyles },
+];
 
 export default function App() {
   return (

@@ -1,158 +1,6625 @@
 [
   {
-    "id": "call_1012",
-    "orderName": "#1058",
-    "customerName": "Ayesha Khan",
-    "phone": "+1 555-0101",
-    "flowId": "cod-confirmation",
+    "id": "rc_1454",
+    "orderId": 6100001454,
+    "orderName": "#1454",
+    "orderCreatedAt": "2026-11-24T14:06:00Z",
+    "customerName": "Ali Abbasi",
+    "phone": "+92 305 1078166",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 4300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "confirmed",
-    "durationSeconds": 48,
-    "attempts": 1,
-    "startedAt": "2026-11-24T14:32:00Z",
-    "orderTotal": 59.99,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 98,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-24T14:09:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
   },
   {
-    "id": "call_1011",
-    "orderName": "#1057",
-    "customerName": "Daniel Moore",
-    "phone": "+1 555-0102",
-    "flowId": "cod-confirmation",
-    "status": "no_answer",
-    "durationSeconds": 0,
-    "attempts": 3,
-    "startedAt": "2026-11-24T13:10:00Z",
-    "orderTotal": 120.0,
-    "currency": "USD"
+    "id": "rc_1451",
+    "orderId": 6100001451,
+    "orderName": "#1451",
+    "orderCreatedAt": "2026-11-24T10:51:00Z",
+    "customerName": "Noor Iqbal",
+    "phone": "+92 345 4436519",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 4000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "pending",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 93,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-24T10:56:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
   },
   {
-    "id": "call_1010",
-    "orderName": "#1056",
-    "customerName": "Sara Ahmed",
-    "phone": "+1 555-0103",
-    "flowId": "abandoned-cart",
+    "id": "rc_1453",
+    "orderId": 6100001453,
+    "orderName": "#1453",
+    "orderCreatedAt": "2026-11-24T10:29:00Z",
+    "customerName": "Zainab Abbasi",
+    "phone": "+92 306 4217103",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 1450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "confirmed",
-    "durationSeconds": 71,
-    "attempts": 1,
-    "startedAt": "2026-11-24T11:45:00Z",
-    "orderTotal": 35.5,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 80,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-24T10:32:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
   },
   {
-    "id": "call_1009",
-    "orderName": "#1055",
-    "customerName": "Liam Turner",
-    "phone": "+1 555-0104",
-    "flowId": "cod-confirmation",
+    "id": "rc_1452",
+    "orderId": 6100001452,
+    "orderName": "#1452",
+    "orderCreatedAt": "2026-11-24T09:38:00Z",
+    "customerName": "Saad Nawaz",
+    "phone": "+92 312 9058824",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 1250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "cancelled",
-    "durationSeconds": 33,
-    "attempts": 1,
-    "startedAt": "2026-11-24T10:05:00Z",
-    "orderTotal": 89.0,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-24T09:44:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-24T09:49:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
   },
   {
-    "id": "call_1008",
-    "orderName": "#1054",
-    "customerName": "Fatima Noor",
-    "phone": "+1 555-0105",
-    "flowId": "delivery-reminder",
+    "id": "rc_1450",
+    "orderId": 6100001450,
+    "orderName": "#1450",
+    "orderCreatedAt": "2026-11-24T09:06:00Z",
+    "customerName": "Amna Abbasi",
+    "phone": "+92 303 3061702",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 2800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "confirmed",
-    "durationSeconds": 25,
-    "attempts": 1,
-    "startedAt": "2026-11-23T17:20:00Z",
-    "orderTotal": 42.75,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 37,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-24T09:10:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-24T09:15:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-24T09:30:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
   },
   {
-    "id": "call_1007",
-    "orderName": "#1053",
-    "customerName": "Noah Williams",
-    "phone": "+1 555-0106",
-    "flowId": "cod-confirmation",
+    "id": "rc_1448",
+    "orderId": 6100001448,
+    "orderName": "#1448",
+    "orderCreatedAt": "2026-11-23T17:59:00Z",
+    "customerName": "Sana Chaudhry",
+    "phone": "+92 322 5788232",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 8350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 44,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-23T18:01:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-23T18:06:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-23T18:21:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1449",
+    "orderId": 6100001449,
+    "orderName": "#1449",
+    "orderCreatedAt": "2026-11-23T17:23:00Z",
+    "customerName": "Imran Nawaz",
+    "phone": "+92 322 3226488",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 6600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 91,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-23T17:24:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1447",
+    "orderId": 6100001447,
+    "orderName": "#1447",
+    "orderCreatedAt": "2026-11-23T13:34:00Z",
+    "customerName": "Rabia Iqbal",
+    "phone": "+92 320 5145925",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 3400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 76,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-23T13:36:00Z",
+        "result": "answered",
+        "durationSeconds": 43
+      }
+    ]
+  },
+  {
+    "id": "rc_1446",
+    "orderId": 6100001446,
+    "orderName": "#1446",
+    "orderCreatedAt": "2026-11-23T05:34:00Z",
+    "customerName": "Fatima Khan",
+    "phone": "+92 345 0589523",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-23T05:37:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
+  },
+  {
+    "id": "rc_1442",
+    "orderId": 6100001442,
+    "orderName": "#1442",
+    "orderCreatedAt": "2026-11-22T07:53:00Z",
+    "customerName": "Ali Qureshi",
+    "phone": "+92 303 1033053",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 1100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 72,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-22T07:56:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1444",
+    "orderId": 6100001444,
+    "orderName": "#1444",
+    "orderCreatedAt": "2026-11-22T07:41:00Z",
+    "customerName": "Noor Ahmed",
+    "phone": "+92 305 5879337",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 3500,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 66,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-22T07:47:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-22T07:52:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-22T08:07:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1441",
+    "orderId": 6100001441,
+    "orderName": "#1441",
+    "orderCreatedAt": "2026-11-22T07:04:00Z",
+    "customerName": "Danish Hussain",
+    "phone": "+92 345 1954430",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 6000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 90,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-22T07:10:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-22T07:15:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1445",
+    "orderId": 6100001445,
+    "orderName": "#1445",
+    "orderCreatedAt": "2026-11-22T07:01:00Z",
+    "customerName": "Komal Tariq",
+    "phone": "+92 336 0214064",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 4050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 45,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-22T07:07:00Z",
+        "result": "answered",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "id": "rc_1443",
+    "orderId": 6100001443,
+    "orderName": "#1443",
+    "orderCreatedAt": "2026-11-22T05:45:00Z",
+    "customerName": "Areeba Iqbal",
+    "phone": "+92 321 7560097",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 500,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-22T05:49:00Z",
+        "result": "answered",
+        "durationSeconds": 53
+      }
+    ]
+  },
+  {
+    "id": "rc_1439",
+    "orderId": 6100001439,
+    "orderName": "#1439",
+    "orderCreatedAt": "2026-11-21T16:48:00Z",
+    "customerName": "Junaid Mirza",
+    "phone": "+92 320 9240928",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 5100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-21T16:49:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T16:54:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T17:09:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1436",
+    "orderId": 6100001436,
+    "orderName": "#1436",
+    "orderCreatedAt": "2026-11-21T14:56:00Z",
+    "customerName": "Danish Aslam",
+    "phone": "+92 301 2225299",
+    "city": "Peshawar",
+    "paymentMethod": "prepaid",
+    "orderTotal": 2350,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 96,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-21T15:00:00Z",
+        "result": "answered",
+        "durationSeconds": 47
+      }
+    ]
+  },
+  {
+    "id": "rc_1440",
+    "orderId": 6100001440,
+    "orderName": "#1440",
+    "orderCreatedAt": "2026-11-21T11:41:00Z",
+    "customerName": "Zeeshan Butt",
+    "phone": "+92 313 8617215",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 6150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "incomplete",
+    "addressScore": 19,
+    "tags": [
+      "RC-Pending",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-21T11:42:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T11:47:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T12:02:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1438",
+    "orderId": 6100001438,
+    "orderName": "#1438",
+    "orderCreatedAt": "2026-11-21T08:54:00Z",
+    "customerName": "Fatima Qureshi",
+    "phone": "+92 345 6111552",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 6900,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 81,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-21T08:59:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T09:04:00Z",
+        "result": "answered",
+        "durationSeconds": 47
+      }
+    ]
+  },
+  {
+    "id": "rc_1437",
+    "orderId": 6100001437,
+    "orderName": "#1437",
+    "orderCreatedAt": "2026-11-21T08:05:00Z",
+    "customerName": "Fatima Qureshi",
+    "phone": "+92 345 3124571",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 5800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 76,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-21T08:11:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T08:16:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-21T08:31:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1433",
+    "orderId": 6100001433,
+    "orderName": "#1433",
+    "orderCreatedAt": "2026-11-20T16:13:00Z",
+    "customerName": "Hira Ahmed",
+    "phone": "+92 305 2669042",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 7150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-20T16:18:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
+  },
+  {
+    "id": "rc_1434",
+    "orderId": 6100001434,
+    "orderName": "#1434",
+    "orderCreatedAt": "2026-11-20T10:32:00Z",
+    "customerName": "Noor Ahmed",
+    "phone": "+92 334 6602761",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 40,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-20T10:38:00Z",
+        "result": "answered",
+        "durationSeconds": 48
+      }
+    ]
+  },
+  {
+    "id": "rc_1435",
+    "orderId": 6100001435,
+    "orderName": "#1435",
+    "orderCreatedAt": "2026-11-20T09:14:00Z",
+    "customerName": "Hassan Tariq",
+    "phone": "+92 302 7584636",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 7700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 94,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-20T09:16:00Z",
+        "result": "answered",
+        "durationSeconds": 48
+      }
+    ]
+  },
+  {
+    "id": "rc_1432",
+    "orderId": 6100001432,
+    "orderName": "#1432",
+    "orderCreatedAt": "2026-11-19T14:13:00Z",
+    "customerName": "Zainab Hussain",
+    "phone": "+92 336 8487477",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 4600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 74,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1430",
+    "orderId": 6100001430,
+    "orderName": "#1430",
+    "orderCreatedAt": "2026-11-19T10:32:00Z",
+    "customerName": "Talha Aslam",
+    "phone": "+92 301 6877278",
+    "city": "Gujranwala",
+    "paymentMethod": "cod",
+    "orderTotal": 8900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-19T10:37:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1431",
+    "orderId": 6100001431,
+    "orderName": "#1431",
+    "orderCreatedAt": "2026-11-19T09:55:00Z",
+    "customerName": "Zeeshan Siddiqui",
+    "phone": "+92 303 5818256",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 1750,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 92,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1429",
+    "orderId": 6100001429,
+    "orderName": "#1429",
+    "orderCreatedAt": "2026-11-19T05:23:00Z",
+    "customerName": "Fatima Shah",
+    "phone": "+92 336 8644802",
+    "city": "Bahawalpur",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 42,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-19T05:28:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-19T05:33:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-19T05:48:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1428",
+    "orderId": 6100001428,
+    "orderName": "#1428",
+    "orderCreatedAt": "2026-11-18T14:52:00Z",
+    "customerName": "Danish Aslam",
+    "phone": "+92 307 95163",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 450,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 66,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1425",
+    "orderId": 6100001425,
+    "orderName": "#1425",
+    "orderCreatedAt": "2026-11-18T14:39:00Z",
+    "customerName": "Saad Butt",
+    "phone": "+92 302 1456239",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 8450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 85,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-18T14:42:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-18T14:47:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-18T15:02:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1427",
+    "orderId": 6100001427,
+    "orderName": "#1427",
+    "orderCreatedAt": "2026-11-18T14:07:00Z",
+    "customerName": "Usman Butt",
+    "phone": "+92 306 4910010",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-18T14:09:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-18T14:14:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-18T14:29:00Z",
+        "result": "answered",
+        "durationSeconds": 50
+      }
+    ]
+  },
+  {
+    "id": "rc_1426",
+    "orderId": 6100001426,
+    "orderName": "#1426",
+    "orderCreatedAt": "2026-11-18T10:14:00Z",
+    "customerName": "Bilal Chaudhry",
+    "phone": "+92 315 7261872",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 33,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-18T10:20:00Z",
+        "result": "answered",
+        "durationSeconds": 51
+      }
+    ]
+  },
+  {
+    "id": "rc_1422",
+    "orderId": 6100001422,
+    "orderName": "#1422",
+    "orderCreatedAt": "2026-11-17T17:10:00Z",
+    "customerName": "Ahmed Ahmed",
+    "phone": "+92 305 7502837",
+    "city": "Bahawalpur",
+    "paymentMethod": "cod",
+    "orderTotal": 5400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 93,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-17T17:11:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-17T17:16:00Z",
+        "result": "answered",
+        "durationSeconds": 39
+      }
+    ]
+  },
+  {
+    "id": "rc_1421",
+    "orderId": 6100001421,
+    "orderName": "#1421",
+    "orderCreatedAt": "2026-11-17T16:06:00Z",
+    "customerName": "Hamza Tariq",
+    "phone": "+92 307 8858505",
+    "city": "Quetta",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9800,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 91,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-17T16:07:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-17T16:12:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-17T16:27:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1420",
+    "orderId": 6100001420,
+    "orderName": "#1420",
+    "orderCreatedAt": "2026-11-17T15:36:00Z",
+    "customerName": "Talha Sheikh",
+    "phone": "+92 322 7266942",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 6100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 46,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-17T15:38:00Z",
+        "result": "answered",
+        "durationSeconds": 52
+      }
+    ]
+  },
+  {
+    "id": "rc_1423",
+    "orderId": 6100001423,
+    "orderName": "#1423",
+    "orderCreatedAt": "2026-11-17T14:14:00Z",
+    "customerName": "Noor Qureshi",
+    "phone": "+92 322 9341414",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 2350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-17T14:16:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-17T14:21:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-17T14:36:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1424",
+    "orderId": 6100001424,
+    "orderName": "#1424",
+    "orderCreatedAt": "2026-11-17T06:03:00Z",
+    "customerName": "Amna Shah",
+    "phone": "+92 300 78366",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 1700,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 71,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1416",
+    "orderId": 6100001416,
+    "orderName": "#1416",
+    "orderCreatedAt": "2026-11-16T14:15:00Z",
+    "customerName": "Imran Nawaz",
+    "phone": "+92 310 2921575",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-16T14:17:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-16T14:22:00Z",
+        "result": "answered",
+        "durationSeconds": 39
+      }
+    ]
+  },
+  {
+    "id": "rc_1419",
+    "orderId": 6100001419,
+    "orderName": "#1419",
+    "orderCreatedAt": "2026-11-16T13:43:00Z",
+    "customerName": "Hira Qureshi",
+    "phone": "+92 312 4014748",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 3300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
     "status": "failed",
-    "durationSeconds": 0,
-    "attempts": 2,
-    "startedAt": "2026-11-23T15:02:00Z",
-    "orderTotal": 210.0,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-11-16T13:47:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
   },
   {
-    "id": "call_1006",
-    "orderName": "#1052",
-    "customerName": "Hina Raza",
-    "phone": "+1 555-0107",
-    "flowId": "cod-confirmation",
+    "id": "rc_1415",
+    "orderId": 6100001415,
+    "orderName": "#1415",
+    "orderCreatedAt": "2026-11-16T09:50:00Z",
+    "customerName": "Ali Iqbal",
+    "phone": "+92 300 9738852",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 41,
+    "tags": [
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-16T09:53:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1418",
+    "orderId": 6100001418,
+    "orderName": "#1418",
+    "orderCreatedAt": "2026-11-16T08:16:00Z",
+    "customerName": "Faisal Siddiqui",
+    "phone": "+92 334 9914934",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 1650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1417",
+    "orderId": 6100001417,
+    "orderName": "#1417",
+    "orderCreatedAt": "2026-11-16T08:09:00Z",
+    "customerName": "Maryam Nawaz",
+    "phone": "+92 310 0041981",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 5650,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
     "status": "confirmed",
-    "durationSeconds": 52,
-    "attempts": 2,
-    "startedAt": "2026-11-23T12:40:00Z",
-    "orderTotal": 64.0,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 12,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-16T08:14:00Z",
+        "result": "answered",
+        "durationSeconds": 24
+      }
+    ]
   },
   {
-    "id": "call_1005",
-    "orderName": "#1051",
-    "customerName": "Emma Johnson",
-    "phone": "+1 555-0108",
-    "flowId": "abandoned-cart",
+    "id": "rc_1411",
+    "orderId": 6100001411,
+    "orderName": "#1411",
+    "orderCreatedAt": "2026-11-15T15:08:00Z",
+    "customerName": "Zeeshan Hussain",
+    "phone": "+92 305 8275",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 80,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1413",
+    "orderId": 6100001413,
+    "orderName": "#1413",
+    "orderCreatedAt": "2026-11-15T08:58:00Z",
+    "customerName": "Umar Butt",
+    "phone": "+92 300 6060896",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 5000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "callback",
+    "skipReason": null,
+    "dtmf": "3",
+    "addressQuality": "partial",
+    "addressScore": 41,
+    "tags": [
+      "RC-Callback",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-15T09:04:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1412",
+    "orderId": 6100001412,
+    "orderName": "#1412",
+    "orderCreatedAt": "2026-11-15T06:04:00Z",
+    "customerName": "Fatima Hussain",
+    "phone": "+92 313 7509811",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 6150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "no_answer",
-    "durationSeconds": 0,
-    "attempts": 3,
-    "startedAt": "2026-11-23T09:15:00Z",
-    "orderTotal": 18.99,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 89,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-15T06:09:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-15T06:14:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-15T06:29:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
   },
   {
-    "id": "call_1004",
-    "orderName": "#1050",
-    "customerName": "Omar Siddiqui",
-    "phone": "+1 555-0109",
-    "flowId": "cod-confirmation",
-    "status": "confirmed",
-    "durationSeconds": 39,
-    "attempts": 1,
-    "startedAt": "2026-11-22T16:30:00Z",
-    "orderTotal": 75.25,
-    "currency": "USD"
+    "id": "rc_1414",
+    "orderId": 6100001414,
+    "orderName": "#1414",
+    "orderCreatedAt": "2026-11-15T05:54:00Z",
+    "customerName": "Maryam Javed",
+    "phone": "+92 321 2164800",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "callback",
+    "skipReason": null,
+    "dtmf": "3",
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [
+      "RC-Callback"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-15T05:59:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-15T06:04:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-15T06:19:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
   },
   {
-    "id": "call_1003",
-    "orderName": "#1049",
-    "customerName": "Olivia Brown",
-    "phone": "+1 555-0110",
-    "flowId": "delivery-reminder",
-    "status": "confirmed",
-    "durationSeconds": 22,
-    "attempts": 1,
-    "startedAt": "2026-11-22T14:00:00Z",
-    "orderTotal": 150.0,
-    "currency": "USD"
+    "id": "rc_1410",
+    "orderId": 6100001410,
+    "orderName": "#1410",
+    "orderCreatedAt": "2026-11-14T15:07:00Z",
+    "customerName": "Hamza Shah",
+    "phone": "+92 313 6628340",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 7300,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
   },
   {
-    "id": "call_1002",
-    "orderName": "#1048",
-    "customerName": "Zain Malik",
-    "phone": "+1 555-0111",
-    "flowId": "cod-confirmation",
+    "id": "rc_1409",
+    "orderId": 6100001409,
+    "orderName": "#1409",
+    "orderCreatedAt": "2026-11-14T12:05:00Z",
+    "customerName": "Amna Javed",
+    "phone": "+92 320 3353751",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
     "status": "cancelled",
-    "durationSeconds": 28,
-    "attempts": 1,
-    "startedAt": "2026-11-22T11:25:00Z",
-    "orderTotal": 47.0,
-    "currency": "USD"
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "partial",
+    "addressScore": 54,
+    "tags": [
+      "RC-Cancelled",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-14T12:10:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
   },
   {
-    "id": "call_1001",
-    "orderName": "#1047",
-    "customerName": "Mia Davis",
-    "phone": "+1 555-0112",
-    "flowId": "cod-confirmation",
-    "status": "queued",
-    "durationSeconds": 0,
-    "attempts": 0,
-    "startedAt": "2026-11-24T15:00:00Z",
-    "orderTotal": 99.0,
-    "currency": "USD"
+    "id": "rc_1408",
+    "orderId": 6100001408,
+    "orderName": "#1408",
+    "orderCreatedAt": "2026-11-14T10:28:00Z",
+    "customerName": "Junaid Nawaz",
+    "phone": "+92 333 9285086",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 6100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-14T10:29:00Z",
+        "result": "answered",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "id": "rc_1405",
+    "orderId": 6100001405,
+    "orderName": "#1405",
+    "orderCreatedAt": "2026-11-13T16:27:00Z",
+    "customerName": "Imran Sheikh",
+    "phone": "+92 307 3993158",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 75,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-13T16:30:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-13T16:35:00Z",
+        "result": "answered",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "id": "rc_1404",
+    "orderId": 6100001404,
+    "orderName": "#1404",
+    "orderCreatedAt": "2026-11-13T13:32:00Z",
+    "customerName": "Komal Siddiqui",
+    "phone": "+92 333 2292500",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 3350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1407",
+    "orderId": 6100001407,
+    "orderName": "#1407",
+    "orderCreatedAt": "2026-11-13T13:25:00Z",
+    "customerName": "Ahmed Chaudhry",
+    "phone": "+92 347 4989165",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 75,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-13T13:28:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-13T13:33:00Z",
+        "result": "answered",
+        "durationSeconds": 49
+      }
+    ]
+  },
+  {
+    "id": "rc_1406",
+    "orderId": 6100001406,
+    "orderName": "#1406",
+    "orderCreatedAt": "2026-11-13T13:06:00Z",
+    "customerName": "Mahnoor Malik",
+    "phone": "+92 303 0936396",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 1650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-13T13:09:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1400",
+    "orderId": 6100001400,
+    "orderName": "#1400",
+    "orderCreatedAt": "2026-11-12T11:01:00Z",
+    "customerName": "Kiran Abbasi",
+    "phone": "+92 306 5471964",
+    "city": "Faisalabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 96,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1403",
+    "orderId": 6100001403,
+    "orderName": "#1403",
+    "orderCreatedAt": "2026-11-12T09:30:00Z",
+    "customerName": "Hassan Raza",
+    "phone": "+92 346 9499754",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 84,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-12T09:34:00Z",
+        "result": "answered",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "id": "rc_1401",
+    "orderId": 6100001401,
+    "orderName": "#1401",
+    "orderCreatedAt": "2026-11-12T08:55:00Z",
+    "customerName": "Hassan Javed",
+    "phone": "+92 333 85298",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 42,
+    "tags": [
+      "Invalid-Number",
+      "Partial-Address"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1402",
+    "orderId": 6100001402,
+    "orderName": "#1402",
+    "orderCreatedAt": "2026-11-12T05:11:00Z",
+    "customerName": "Bilal Abbasi",
+    "phone": "+92 312 2999566",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 85,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-12T05:17:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1397",
+    "orderId": 6100001397,
+    "orderName": "#1397",
+    "orderCreatedAt": "2026-11-11T17:23:00Z",
+    "customerName": "Hassan Mirza",
+    "phone": "+92 333 6642598",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 64,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-11T17:27:00Z",
+        "result": "answered",
+        "durationSeconds": 43
+      }
+    ]
+  },
+  {
+    "id": "rc_1399",
+    "orderId": 6100001399,
+    "orderName": "#1399",
+    "orderCreatedAt": "2026-11-11T11:44:00Z",
+    "customerName": "Komal Aslam",
+    "phone": "+92 320 6849825",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 55,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-11T11:47:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-11T11:52:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-11T12:07:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1398",
+    "orderId": 6100001398,
+    "orderName": "#1398",
+    "orderCreatedAt": "2026-11-11T07:34:00Z",
+    "customerName": "Fahad Aslam",
+    "phone": "+92 301 7130347",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 5250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 72,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-11T07:40:00Z",
+        "result": "answered",
+        "durationSeconds": 44
+      }
+    ]
+  },
+  {
+    "id": "rc_1394",
+    "orderId": 6100001394,
+    "orderName": "#1394",
+    "orderCreatedAt": "2026-11-10T16:37:00Z",
+    "customerName": "Fatima Butt",
+    "phone": "+92 331 1017306",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 5200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 41,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-10T16:39:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-10T16:44:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-10T16:59:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1392",
+    "orderId": 6100001392,
+    "orderName": "#1392",
+    "orderCreatedAt": "2026-11-10T15:58:00Z",
+    "customerName": "Sana Javed",
+    "phone": "+92 345 9414605",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 6850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "incomplete",
+    "addressScore": 11,
+    "tags": [
+      "RC-Cancelled",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-10T16:02:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-10T16:07:00Z",
+        "result": "answered",
+        "durationSeconds": 47
+      }
+    ]
+  },
+  {
+    "id": "rc_1395",
+    "orderId": 6100001395,
+    "orderName": "#1395",
+    "orderCreatedAt": "2026-11-10T12:35:00Z",
+    "customerName": "Iqra Siddiqui",
+    "phone": "+92 310 8227985",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 4300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 81,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-11-10T12:41:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1393",
+    "orderId": 6100001393,
+    "orderName": "#1393",
+    "orderCreatedAt": "2026-11-10T09:51:00Z",
+    "customerName": "Junaid Hussain",
+    "phone": "+92 315 3807247",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 5800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 59,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-10T09:53:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-10T09:58:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-10T10:13:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1396",
+    "orderId": 6100001396,
+    "orderName": "#1396",
+    "orderCreatedAt": "2026-11-10T06:26:00Z",
+    "customerName": "Zeeshan Sheikh",
+    "phone": "+92 320 5086027",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1390",
+    "orderId": 6100001390,
+    "orderName": "#1390",
+    "orderCreatedAt": "2026-11-09T10:31:00Z",
+    "customerName": "Umar Sheikh",
+    "phone": "+92 313 5859716",
+    "city": "Bahawalpur",
+    "paymentMethod": "cod",
+    "orderTotal": 3550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 36,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-09T10:32:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1388",
+    "orderId": 6100001388,
+    "orderName": "#1388",
+    "orderCreatedAt": "2026-11-09T09:59:00Z",
+    "customerName": "Mahnoor Hussain",
+    "phone": "+92 315 7956973",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8450,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-09T10:04:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-09T10:09:00Z",
+        "result": "answered",
+        "durationSeconds": 29
+      }
+    ]
+  },
+  {
+    "id": "rc_1391",
+    "orderId": 6100001391,
+    "orderName": "#1391",
+    "orderCreatedAt": "2026-11-09T09:07:00Z",
+    "customerName": "Ayesha Raza",
+    "phone": "+92 307 7775189",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "callback",
+    "skipReason": null,
+    "dtmf": "3",
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "RC-Callback"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-09T09:12:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1389",
+    "orderId": 6100001389,
+    "orderName": "#1389",
+    "orderCreatedAt": "2026-11-09T09:01:00Z",
+    "customerName": "Saad Chaudhry",
+    "phone": "+92 320 1614468",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 7250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 69,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-09T09:06:00Z",
+        "result": "answered",
+        "durationSeconds": 54
+      }
+    ]
+  },
+  {
+    "id": "rc_1387",
+    "orderId": 6100001387,
+    "orderName": "#1387",
+    "orderCreatedAt": "2026-11-09T06:29:00Z",
+    "customerName": "Ali Ahmed",
+    "phone": "+92 346 5151744",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 82,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-09T06:30:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
+  },
+  {
+    "id": "rc_1383",
+    "orderId": 6100001383,
+    "orderName": "#1383",
+    "orderCreatedAt": "2026-11-08T14:44:00Z",
+    "customerName": "Kiran Raza",
+    "phone": "+92 303 9052649",
+    "city": "Gujranwala",
+    "paymentMethod": "cod",
+    "orderTotal": 450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-08T14:49:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-08T14:54:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1385",
+    "orderId": 6100001385,
+    "orderName": "#1385",
+    "orderCreatedAt": "2026-11-08T13:01:00Z",
+    "customerName": "Areeba Khan",
+    "phone": "+92 308 5420699",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 68,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-08T13:06:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-08T13:11:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-08T13:26:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1384",
+    "orderId": 6100001384,
+    "orderName": "#1384",
+    "orderCreatedAt": "2026-11-08T11:03:00Z",
+    "customerName": "Danish Siddiqui",
+    "phone": "+92 322 7773799",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 2550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-08T11:08:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-08T11:13:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-08T11:28:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1386",
+    "orderId": 6100001386,
+    "orderName": "#1386",
+    "orderCreatedAt": "2026-11-08T08:52:00Z",
+    "customerName": "Saad Qureshi",
+    "phone": "+92 322 0187628",
+    "city": "Faisalabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 90,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-08T08:58:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
+  },
+  {
+    "id": "rc_1381",
+    "orderId": 6100001381,
+    "orderName": "#1381",
+    "orderCreatedAt": "2026-11-07T14:39:00Z",
+    "customerName": "Ahmed Mirza",
+    "phone": "+92 334 1518250",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 7900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 69,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-07T14:42:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-07T14:47:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-07T15:02:00Z",
+        "result": "answered",
+        "durationSeconds": 28
+      }
+    ]
+  },
+  {
+    "id": "rc_1382",
+    "orderId": 6100001382,
+    "orderName": "#1382",
+    "orderCreatedAt": "2026-11-07T13:23:00Z",
+    "customerName": "Fatima Sheikh",
+    "phone": "+92 302 8112457",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 8550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 35,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-07T13:27:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1380",
+    "orderId": 6100001380,
+    "orderName": "#1380",
+    "orderCreatedAt": "2026-11-07T13:08:00Z",
+    "customerName": "Kiran Abbasi",
+    "phone": "+92 346 2658115",
+    "city": "Multan",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "incomplete",
+    "addressScore": 33,
+    "tags": [
+      "Duplicate-Order",
+      "Incomplete-Address"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1375",
+    "orderId": 6100001375,
+    "orderName": "#1375",
+    "orderCreatedAt": "2026-11-06T12:06:00Z",
+    "customerName": "Talha Hussain",
+    "phone": "+92 345 8806534",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 8650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-06T12:10:00Z",
+        "result": "answered",
+        "durationSeconds": 55
+      }
+    ]
+  },
+  {
+    "id": "rc_1379",
+    "orderId": 6100001379,
+    "orderName": "#1379",
+    "orderCreatedAt": "2026-11-06T12:05:00Z",
+    "customerName": "Junaid Tariq",
+    "phone": "+92 334 6161456",
+    "city": "Peshawar",
+    "paymentMethod": "prepaid",
+    "orderTotal": 8850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-06T12:07:00Z",
+        "result": "answered",
+        "durationSeconds": 50
+      }
+    ]
+  },
+  {
+    "id": "rc_1376",
+    "orderId": 6100001376,
+    "orderName": "#1376",
+    "orderCreatedAt": "2026-11-06T09:17:00Z",
+    "customerName": "Iqra Chaudhry",
+    "phone": "+92 346 4373917",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7650,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 87,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-06T09:18:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
+  },
+  {
+    "id": "rc_1377",
+    "orderId": 6100001377,
+    "orderName": "#1377",
+    "orderCreatedAt": "2026-11-06T08:54:00Z",
+    "customerName": "Usman Ahmed",
+    "phone": "+92 305 7297331",
+    "city": "Rawalpindi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 92,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1378",
+    "orderId": 6100001378,
+    "orderName": "#1378",
+    "orderCreatedAt": "2026-11-06T05:20:00Z",
+    "customerName": "Usman Shah",
+    "phone": "+92 312 8134059",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 6100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 55,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-06T05:26:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1372",
+    "orderId": 6100001372,
+    "orderName": "#1372",
+    "orderCreatedAt": "2026-11-05T14:21:00Z",
+    "customerName": "Areeba Raza",
+    "phone": "+92 331 5098843",
+    "city": "Rawalpindi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 16,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-05T14:22:00Z",
+        "result": "answered",
+        "durationSeconds": 26
+      }
+    ]
+  },
+  {
+    "id": "rc_1374",
+    "orderId": 6100001374,
+    "orderName": "#1374",
+    "orderCreatedAt": "2026-11-05T13:21:00Z",
+    "customerName": "Areeba Khan",
+    "phone": "+92 305 8637741",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 40,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-05T13:24:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
+  },
+  {
+    "id": "rc_1371",
+    "orderId": 6100001371,
+    "orderName": "#1371",
+    "orderCreatedAt": "2026-11-05T11:35:00Z",
+    "customerName": "Ali Malik",
+    "phone": "+92 313 9794800",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 45,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-05T11:41:00Z",
+        "result": "answered",
+        "durationSeconds": 32
+      }
+    ]
+  },
+  {
+    "id": "rc_1373",
+    "orderId": 6100001373,
+    "orderName": "#1373",
+    "orderCreatedAt": "2026-11-05T10:33:00Z",
+    "customerName": "Komal Iqbal",
+    "phone": "+92 333 9820120",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 1600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-05T10:37:00Z",
+        "result": "answered",
+        "durationSeconds": 53
+      }
+    ]
+  },
+  {
+    "id": "rc_1370",
+    "orderId": 6100001370,
+    "orderName": "#1370",
+    "orderCreatedAt": "2026-11-05T05:27:00Z",
+    "customerName": "Mahnoor Ahmed",
+    "phone": "+92 331 0001675",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 8600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 48,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-05T05:31:00Z",
+        "result": "answered",
+        "durationSeconds": 39
+      }
+    ]
+  },
+  {
+    "id": "rc_1369",
+    "orderId": 6100001369,
+    "orderName": "#1369",
+    "orderCreatedAt": "2026-11-04T17:52:00Z",
+    "customerName": "Imran Aslam",
+    "phone": "+92 336 3289999",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 90,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-11-04T17:55:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1367",
+    "orderId": 6100001367,
+    "orderName": "#1367",
+    "orderCreatedAt": "2026-11-04T17:21:00Z",
+    "customerName": "Amna Nawaz",
+    "phone": "+92 333 7858963",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 98,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1366",
+    "orderId": 6100001366,
+    "orderName": "#1366",
+    "orderCreatedAt": "2026-11-04T06:45:00Z",
+    "customerName": "Komal Khan",
+    "phone": "+92 303 3746520",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 89,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1368",
+    "orderId": 6100001368,
+    "orderName": "#1368",
+    "orderCreatedAt": "2026-11-04T06:09:00Z",
+    "customerName": "Saad Butt",
+    "phone": "+92 333 0178701",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-04T06:12:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-04T06:17:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-04T06:32:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1361",
+    "orderId": 6100001361,
+    "orderName": "#1361",
+    "orderCreatedAt": "2026-11-03T15:16:00Z",
+    "customerName": "Hassan Javed",
+    "phone": "+92 334 3594955",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 6150,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-03T15:19:00Z",
+        "result": "answered",
+        "durationSeconds": 50
+      }
+    ]
+  },
+  {
+    "id": "rc_1363",
+    "orderId": 6100001363,
+    "orderName": "#1363",
+    "orderCreatedAt": "2026-11-03T12:44:00Z",
+    "customerName": "Mahnoor Tariq",
+    "phone": "+92 301 3825761",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 94,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1365",
+    "orderId": 6100001365,
+    "orderName": "#1365",
+    "orderCreatedAt": "2026-11-03T11:01:00Z",
+    "customerName": "Rabia Sheikh",
+    "phone": "+92 347 4837128",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 2350,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-03T11:07:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
+  },
+  {
+    "id": "rc_1362",
+    "orderId": 6100001362,
+    "orderName": "#1362",
+    "orderCreatedAt": "2026-11-03T09:28:00Z",
+    "customerName": "Zainab Butt",
+    "phone": "+92 310 23871",
+    "city": "Rawalpindi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 8600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 71,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1364",
+    "orderId": 6100001364,
+    "orderName": "#1364",
+    "orderCreatedAt": "2026-11-03T07:21:00Z",
+    "customerName": "Fahad Sheikh",
+    "phone": "+92 347 32970",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 1300,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1359",
+    "orderId": 6100001359,
+    "orderName": "#1359",
+    "orderCreatedAt": "2026-11-02T17:08:00Z",
+    "customerName": "Imran Tariq",
+    "phone": "+92 345 6034936",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 8250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 42,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-02T17:10:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-02T17:15:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-02T17:30:00Z",
+        "result": "answered",
+        "durationSeconds": 42
+      }
+    ]
+  },
+  {
+    "id": "rc_1360",
+    "orderId": 6100001360,
+    "orderName": "#1360",
+    "orderCreatedAt": "2026-11-02T13:20:00Z",
+    "customerName": "Zainab Nawaz",
+    "phone": "+92 321 4396231",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 66,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-02T13:25:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-02T13:30:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
+  },
+  {
+    "id": "rc_1358",
+    "orderId": 6100001358,
+    "orderName": "#1358",
+    "orderCreatedAt": "2026-11-02T10:56:00Z",
+    "customerName": "Hassan Siddiqui",
+    "phone": "+92 334 2994618",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 5300,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 50,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-02T10:59:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1357",
+    "orderId": 6100001357,
+    "orderName": "#1357",
+    "orderCreatedAt": "2026-11-01T15:38:00Z",
+    "customerName": "Sana Abbasi",
+    "phone": "+92 333 3600578",
+    "city": "Bahawalpur",
+    "paymentMethod": "cod",
+    "orderTotal": 450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 69,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-01T15:39:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-11-01T15:44:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1353",
+    "orderId": 6100001353,
+    "orderName": "#1353",
+    "orderCreatedAt": "2026-11-01T14:54:00Z",
+    "customerName": "Zeeshan Javed",
+    "phone": "+92 307 1651096",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 4500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1354",
+    "orderId": 6100001354,
+    "orderName": "#1354",
+    "orderCreatedAt": "2026-11-01T14:51:00Z",
+    "customerName": "Hassan Siddiqui",
+    "phone": "+92 310 5928038",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 8550,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 87,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-01T14:56:00Z",
+        "result": "answered",
+        "durationSeconds": 32
+      }
+    ]
+  },
+  {
+    "id": "rc_1356",
+    "orderId": 6100001356,
+    "orderName": "#1356",
+    "orderCreatedAt": "2026-11-01T12:21:00Z",
+    "customerName": "Danish Ahmed",
+    "phone": "+92 333 7729760",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "partial",
+    "addressScore": 57,
+    "tags": [
+      "RC-Cancelled",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-01T12:24:00Z",
+        "result": "answered",
+        "durationSeconds": 29
+      }
+    ]
+  },
+  {
+    "id": "rc_1355",
+    "orderId": 6100001355,
+    "orderName": "#1355",
+    "orderCreatedAt": "2026-11-01T06:57:00Z",
+    "customerName": "Komal Chaudhry",
+    "phone": "+92 347 2697487",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 6500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 45,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-11-01T07:00:00Z",
+        "result": "answered",
+        "durationSeconds": 29
+      }
+    ]
+  },
+  {
+    "id": "rc_1352",
+    "orderId": 6100001352,
+    "orderName": "#1352",
+    "orderCreatedAt": "2026-10-31T14:28:00Z",
+    "customerName": "Kiran Abbasi",
+    "phone": "+92 331 8460570",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 3050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-31T14:31:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-31T14:36:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1350",
+    "orderId": 6100001350,
+    "orderName": "#1350",
+    "orderCreatedAt": "2026-10-31T12:53:00Z",
+    "customerName": "Maryam Khan",
+    "phone": "+92 322 7355784",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 6750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 64,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-31T12:58:00Z",
+        "result": "answered",
+        "durationSeconds": 29
+      }
+    ]
+  },
+  {
+    "id": "rc_1351",
+    "orderId": 6100001351,
+    "orderName": "#1351",
+    "orderCreatedAt": "2026-10-31T11:01:00Z",
+    "customerName": "Ayesha Siddiqui",
+    "phone": "+92 333 2200495",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 2000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 74,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-31T11:02:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
+  },
+  {
+    "id": "rc_1349",
+    "orderId": 6100001349,
+    "orderName": "#1349",
+    "orderCreatedAt": "2026-10-31T07:13:00Z",
+    "customerName": "Hamza Chaudhry",
+    "phone": "+92 321 5692268",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 8550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-31T07:18:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-31T07:23:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-31T07:38:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1346",
+    "orderId": 6100001346,
+    "orderName": "#1346",
+    "orderCreatedAt": "2026-10-30T12:22:00Z",
+    "customerName": "Imran Nawaz",
+    "phone": "+92 321 9462748",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1700,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 96,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-30T12:27:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1348",
+    "orderId": 6100001348,
+    "orderName": "#1348",
+    "orderCreatedAt": "2026-10-30T10:22:00Z",
+    "customerName": "Zainab Abbasi",
+    "phone": "+92 331 9995",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 92,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1347",
+    "orderId": 6100001347,
+    "orderName": "#1347",
+    "orderCreatedAt": "2026-10-30T06:13:00Z",
+    "customerName": "Zainab Abbasi",
+    "phone": "+92 308 9716474",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7650,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "plan_limit",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 97,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1344",
+    "orderId": 6100001344,
+    "orderName": "#1344",
+    "orderCreatedAt": "2026-10-29T16:35:00Z",
+    "customerName": "Mahnoor Abbasi",
+    "phone": "+92 331 6219190",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 3600,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 84,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-29T16:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-29T16:45:00Z",
+        "result": "answered",
+        "durationSeconds": 34
+      }
+    ]
+  },
+  {
+    "id": "rc_1345",
+    "orderId": 6100001345,
+    "orderName": "#1345",
+    "orderCreatedAt": "2026-10-29T15:26:00Z",
+    "customerName": "Usman Mirza",
+    "phone": "+92 346 2763795",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 4000,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 75,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-29T15:31:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-29T15:36:00Z",
+        "result": "answered",
+        "durationSeconds": 46
+      }
+    ]
+  },
+  {
+    "id": "rc_1343",
+    "orderId": 6100001343,
+    "orderName": "#1343",
+    "orderCreatedAt": "2026-10-29T13:24:00Z",
+    "customerName": "Iqra Malik",
+    "phone": "+92 313 8197814",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 4050,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 66,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-29T13:27:00Z",
+        "result": "answered",
+        "durationSeconds": 54
+      }
+    ]
+  },
+  {
+    "id": "rc_1341",
+    "orderId": 6100001341,
+    "orderName": "#1341",
+    "orderCreatedAt": "2026-10-29T13:21:00Z",
+    "customerName": "Saad Mirza",
+    "phone": "+92 308 4209736",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 8500,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 91,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-29T13:25:00Z",
+        "result": "answered",
+        "durationSeconds": 44
+      }
+    ]
+  },
+  {
+    "id": "rc_1342",
+    "orderId": 6100001342,
+    "orderName": "#1342",
+    "orderCreatedAt": "2026-10-29T07:37:00Z",
+    "customerName": "Hamza Tariq",
+    "phone": "+92 334 7759283",
+    "city": "Gujranwala",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9550,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 82,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-10-29T07:42:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1339",
+    "orderId": 6100001339,
+    "orderName": "#1339",
+    "orderCreatedAt": "2026-10-28T11:52:00Z",
+    "customerName": "Iqra Nawaz",
+    "phone": "+92 331 1875410",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 5200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 81,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-28T11:55:00Z",
+        "result": "answered",
+        "durationSeconds": 51
+      }
+    ]
+  },
+  {
+    "id": "rc_1340",
+    "orderId": 6100001340,
+    "orderName": "#1340",
+    "orderCreatedAt": "2026-10-28T10:40:00Z",
+    "customerName": "Talha Raza",
+    "phone": "+92 303 1671959",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 71,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-28T10:44:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1338",
+    "orderId": 6100001338,
+    "orderName": "#1338",
+    "orderCreatedAt": "2026-10-28T05:40:00Z",
+    "customerName": "Umar Javed",
+    "phone": "+92 313 2730832",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 4450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-28T05:43:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1337",
+    "orderId": 6100001337,
+    "orderName": "#1337",
+    "orderCreatedAt": "2026-10-27T14:57:00Z",
+    "customerName": "Faisal Malik",
+    "phone": "+92 302 7594659",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 5350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-27T15:00:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-27T15:05:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-27T15:20:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1335",
+    "orderId": 6100001335,
+    "orderName": "#1335",
+    "orderCreatedAt": "2026-10-27T12:30:00Z",
+    "customerName": "Ali Hussain",
+    "phone": "+92 313 52499",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 4700,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "manual",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 53,
+    "tags": [
+      "Invalid-Number",
+      "Partial-Address"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1336",
+    "orderId": 6100001336,
+    "orderName": "#1336",
+    "orderCreatedAt": "2026-10-27T08:47:00Z",
+    "customerName": "Hira Iqbal",
+    "phone": "+92 312 6286061",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 5500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-27T08:50:00Z",
+        "result": "answered",
+        "durationSeconds": 55
+      }
+    ]
+  },
+  {
+    "id": "rc_1334",
+    "orderId": 6100001334,
+    "orderName": "#1334",
+    "orderCreatedAt": "2026-10-26T17:08:00Z",
+    "customerName": "Sadia Abbasi",
+    "phone": "+92 301 0466784",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 89,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-26T17:12:00Z",
+        "result": "answered",
+        "durationSeconds": 42
+      }
+    ]
+  },
+  {
+    "id": "rc_1333",
+    "orderId": 6100001333,
+    "orderName": "#1333",
+    "orderCreatedAt": "2026-10-26T15:54:00Z",
+    "customerName": "Zeeshan Qureshi",
+    "phone": "+92 307 8190621",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 5200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-26T15:55:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-26T16:00:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-26T16:15:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1332",
+    "orderId": 6100001332,
+    "orderName": "#1332",
+    "orderCreatedAt": "2026-10-26T13:09:00Z",
+    "customerName": "Ahmed Hussain",
+    "phone": "+92 301 3742174",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 4700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 80,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-26T13:13:00Z",
+        "result": "answered",
+        "durationSeconds": 54
+      }
+    ]
+  },
+  {
+    "id": "rc_1330",
+    "orderId": 6100001330,
+    "orderName": "#1330",
+    "orderCreatedAt": "2026-10-26T12:58:00Z",
+    "customerName": "Rabia Khan",
+    "phone": "+92 334 1075348",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 8850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 90,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-26T13:01:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-26T13:06:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-26T13:21:00Z",
+        "result": "answered",
+        "durationSeconds": 53
+      }
+    ]
+  },
+  {
+    "id": "rc_1331",
+    "orderId": 6100001331,
+    "orderName": "#1331",
+    "orderCreatedAt": "2026-10-26T07:25:00Z",
+    "customerName": "Ahmed Butt",
+    "phone": "+92 345 3365401",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6850,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-26T07:29:00Z",
+        "result": "answered",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "id": "rc_1328",
+    "orderId": 6100001328,
+    "orderName": "#1328",
+    "orderCreatedAt": "2026-10-25T15:40:00Z",
+    "customerName": "Hassan Iqbal",
+    "phone": "+92 313 2780777",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 33,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-25T15:45:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-25T15:50:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-25T16:05:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1326",
+    "orderId": 6100001326,
+    "orderName": "#1326",
+    "orderCreatedAt": "2026-10-25T08:39:00Z",
+    "customerName": "Kiran Tariq",
+    "phone": "+92 320 9626608",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 6000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-25T08:43:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-25T08:48:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1329",
+    "orderId": 6100001329,
+    "orderName": "#1329",
+    "orderCreatedAt": "2026-10-25T07:12:00Z",
+    "customerName": "Iqra Iqbal",
+    "phone": "+92 306 9442891",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 7600,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 84,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-10-25T07:15:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1327",
+    "orderId": 6100001327,
+    "orderName": "#1327",
+    "orderCreatedAt": "2026-10-25T06:32:00Z",
+    "customerName": "Mahnoor Sheikh",
+    "phone": "+92 306 2276042",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 3400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "callback",
+    "skipReason": null,
+    "dtmf": "3",
+    "addressQuality": "complete",
+    "addressScore": 74,
+    "tags": [
+      "RC-Callback"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-25T06:33:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-25T06:38:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
+  },
+  {
+    "id": "rc_1323",
+    "orderId": 6100001323,
+    "orderName": "#1323",
+    "orderCreatedAt": "2026-10-24T10:24:00Z",
+    "customerName": "Mahnoor Qureshi",
+    "phone": "+92 336 6767813",
+    "city": "Multan",
+    "paymentMethod": "prepaid",
+    "orderTotal": 2700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 85,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-24T10:26:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-24T10:31:00Z",
+        "result": "answered",
+        "durationSeconds": 44
+      }
+    ]
+  },
+  {
+    "id": "rc_1325",
+    "orderId": 6100001325,
+    "orderName": "#1325",
+    "orderCreatedAt": "2026-10-24T07:50:00Z",
+    "customerName": "Saad Tariq",
+    "phone": "+92 306 99482",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1324",
+    "orderId": 6100001324,
+    "orderName": "#1324",
+    "orderCreatedAt": "2026-10-24T06:30:00Z",
+    "customerName": "Hassan Shah",
+    "phone": "+92 336 3920005",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9550,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "manual",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 84,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-24T06:33:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-24T06:38:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-24T06:53:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1322",
+    "orderId": 6100001322,
+    "orderName": "#1322",
+    "orderCreatedAt": "2026-10-23T06:18:00Z",
+    "customerName": "Danish Ahmed",
+    "phone": "+92 313 7453928",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 1900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 76,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-23T06:20:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-23T06:25:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-23T06:40:00Z",
+        "result": "answered",
+        "durationSeconds": 50
+      }
+    ]
+  },
+  {
+    "id": "rc_1321",
+    "orderId": 6100001321,
+    "orderName": "#1321",
+    "orderCreatedAt": "2026-10-23T05:38:00Z",
+    "customerName": "Danish Tariq",
+    "phone": "+92 334 8461385",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 1050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-23T05:43:00Z",
+        "result": "answered",
+        "durationSeconds": 42
+      }
+    ]
+  },
+  {
+    "id": "rc_1319",
+    "orderId": 6100001319,
+    "orderName": "#1319",
+    "orderCreatedAt": "2026-10-22T16:58:00Z",
+    "customerName": "Hamza Malik",
+    "phone": "+92 347 2543445",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7350,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 72,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-22T17:03:00Z",
+        "result": "answered",
+        "durationSeconds": 52
+      }
+    ]
+  },
+  {
+    "id": "rc_1320",
+    "orderId": 6100001320,
+    "orderName": "#1320",
+    "orderCreatedAt": "2026-10-22T05:27:00Z",
+    "customerName": "Ali Shah",
+    "phone": "+92 301 0880751",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 53,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-22T05:33:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-22T05:38:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1318",
+    "orderId": 6100001318,
+    "orderName": "#1318",
+    "orderCreatedAt": "2026-10-21T12:05:00Z",
+    "customerName": "Danish Siddiqui",
+    "phone": "+92 333 7581526",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2100,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 93,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1317",
+    "orderId": 6100001317,
+    "orderName": "#1317",
+    "orderCreatedAt": "2026-10-21T07:19:00Z",
+    "customerName": "Mahnoor Hussain",
+    "phone": "+92 331 78624",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 5050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1316",
+    "orderId": 6100001316,
+    "orderName": "#1316",
+    "orderCreatedAt": "2026-10-20T13:01:00Z",
+    "customerName": "Danish Hussain",
+    "phone": "+92 305 3845594",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 1900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "partial",
+    "addressScore": 52,
+    "tags": [
+      "RC-Cancelled",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-20T13:03:00Z",
+        "result": "answered",
+        "durationSeconds": 29
+      }
+    ]
+  },
+  {
+    "id": "rc_1315",
+    "orderId": 6100001315,
+    "orderName": "#1315",
+    "orderCreatedAt": "2026-10-20T11:46:00Z",
+    "customerName": "Hassan Nawaz",
+    "phone": "+92 301 9127525",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-20T11:49:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-20T11:54:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-20T12:09:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1314",
+    "orderId": 6100001314,
+    "orderName": "#1314",
+    "orderCreatedAt": "2026-10-19T17:08:00Z",
+    "customerName": "Iqra Tariq",
+    "phone": "+92 312 8649292",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 39,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-19T17:09:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1313",
+    "orderId": 6100001313,
+    "orderName": "#1313",
+    "orderCreatedAt": "2026-10-19T05:54:00Z",
+    "customerName": "Hassan Mirza",
+    "phone": "+92 346 2607021",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2650,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-19T05:55:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
+  },
+  {
+    "id": "rc_1311",
+    "orderId": 6100001311,
+    "orderName": "#1311",
+    "orderCreatedAt": "2026-10-18T16:44:00Z",
+    "customerName": "Usman Iqbal",
+    "phone": "+92 300 1125826",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 1500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1312",
+    "orderId": 6100001312,
+    "orderName": "#1312",
+    "orderCreatedAt": "2026-10-18T15:30:00Z",
+    "customerName": "Talha Javed",
+    "phone": "+92 313 4131338",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 67,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-18T15:36:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1307",
+    "orderId": 6100001307,
+    "orderName": "#1307",
+    "orderCreatedAt": "2026-10-17T10:13:00Z",
+    "customerName": "Iqra Butt",
+    "phone": "+92 303 8489092",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 3700,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 53,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-17T10:14:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-17T10:19:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1310",
+    "orderId": 6100001310,
+    "orderName": "#1310",
+    "orderCreatedAt": "2026-10-17T08:36:00Z",
+    "customerName": "Komal Abbasi",
+    "phone": "+92 306 4663661",
+    "city": "Quetta",
+    "paymentMethod": "prepaid",
+    "orderTotal": 4650,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 36,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-17T08:37:00Z",
+        "result": "answered",
+        "durationSeconds": 44
+      }
+    ]
+  },
+  {
+    "id": "rc_1308",
+    "orderId": 6100001308,
+    "orderName": "#1308",
+    "orderCreatedAt": "2026-10-17T06:43:00Z",
+    "customerName": "Zainab Javed",
+    "phone": "+92 308 4691644",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 75,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-17T06:48:00Z",
+        "result": "answered",
+        "durationSeconds": 45
+      }
+    ]
+  },
+  {
+    "id": "rc_1309",
+    "orderId": 6100001309,
+    "orderName": "#1309",
+    "orderCreatedAt": "2026-10-17T06:09:00Z",
+    "customerName": "Maryam Tariq",
+    "phone": "+92 315 2954138",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 9000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 51,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-17T06:11:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-17T06:16:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-17T06:31:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1306",
+    "orderId": 6100001306,
+    "orderName": "#1306",
+    "orderCreatedAt": "2026-10-16T11:29:00Z",
+    "customerName": "Maryam Nawaz",
+    "phone": "+92 331 6180739",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 900,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 87,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-16T11:33:00Z",
+        "result": "answered",
+        "durationSeconds": 36
+      }
+    ]
+  },
+  {
+    "id": "rc_1304",
+    "orderId": 6100001304,
+    "orderName": "#1304",
+    "orderCreatedAt": "2026-10-16T06:39:00Z",
+    "customerName": "Sadia Raza",
+    "phone": "+92 312 6063471",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 5900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 85,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-16T06:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-16T06:45:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1305",
+    "orderId": 6100001305,
+    "orderName": "#1305",
+    "orderCreatedAt": "2026-10-16T06:18:00Z",
+    "customerName": "Saad Khan",
+    "phone": "+92 303 4786258",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 7800,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-16T06:20:00Z",
+        "result": "answered",
+        "durationSeconds": 21
+      }
+    ]
+  },
+  {
+    "id": "rc_1302",
+    "orderId": 6100001302,
+    "orderName": "#1302",
+    "orderCreatedAt": "2026-10-15T16:01:00Z",
+    "customerName": "Imran Qureshi",
+    "phone": "+92 307 3707718",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 7350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-15T16:02:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-15T16:07:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1303",
+    "orderId": 6100001303,
+    "orderName": "#1303",
+    "orderCreatedAt": "2026-10-15T12:30:00Z",
+    "customerName": "Ali Khan",
+    "phone": "+92 331 9490500",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 3800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 24,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-15T12:35:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-15T12:40:00Z",
+        "result": "answered",
+        "durationSeconds": 48
+      }
+    ]
+  },
+  {
+    "id": "rc_1301",
+    "orderId": 6100001301,
+    "orderName": "#1301",
+    "orderCreatedAt": "2026-10-14T12:33:00Z",
+    "customerName": "Saad Sheikh",
+    "phone": "+92 302 3554773",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 4200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 59,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-14T12:36:00Z",
+        "result": "answered",
+        "durationSeconds": 26
+      }
+    ]
+  },
+  {
+    "id": "rc_1300",
+    "orderId": 6100001300,
+    "orderName": "#1300",
+    "orderCreatedAt": "2026-10-14T07:19:00Z",
+    "customerName": "Bilal Ahmed",
+    "phone": "+92 333 1295128",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 96,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-14T07:20:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-14T07:25:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-14T07:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1297",
+    "orderId": 6100001297,
+    "orderName": "#1297",
+    "orderCreatedAt": "2026-10-13T11:57:00Z",
+    "customerName": "Amna Aslam",
+    "phone": "+92 334 7927913",
+    "city": "Gujranwala",
+    "paymentMethod": "cod",
+    "orderTotal": 4800,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 89,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-13T12:02:00Z",
+        "result": "answered",
+        "durationSeconds": 24
+      }
+    ]
+  },
+  {
+    "id": "rc_1296",
+    "orderId": 6100001296,
+    "orderName": "#1296",
+    "orderCreatedAt": "2026-10-13T11:14:00Z",
+    "customerName": "Umar Malik",
+    "phone": "+92 347 6796173",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 6000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "incomplete",
+    "addressScore": 27,
+    "tags": [
+      "RC-Cancelled",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-13T11:20:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1299",
+    "orderId": 6100001299,
+    "orderName": "#1299",
+    "orderCreatedAt": "2026-10-13T07:20:00Z",
+    "customerName": "Danish Khan",
+    "phone": "+92 334 8333517",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 8650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 82,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-13T07:22:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-13T07:27:00Z",
+        "result": "answered",
+        "durationSeconds": 24
+      }
+    ]
+  },
+  {
+    "id": "rc_1298",
+    "orderId": 6100001298,
+    "orderName": "#1298",
+    "orderCreatedAt": "2026-10-13T07:04:00Z",
+    "customerName": "Umar Malik",
+    "phone": "+92 307 6118736",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 1900,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "duplicate",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 69,
+    "tags": [
+      "Duplicate-Order"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1293",
+    "orderId": 6100001293,
+    "orderName": "#1293",
+    "orderCreatedAt": "2026-10-12T14:33:00Z",
+    "customerName": "Ali Butt",
+    "phone": "+92 347 8660681",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 6850,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-12T14:35:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-12T14:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-12T14:55:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1292",
+    "orderId": 6100001292,
+    "orderName": "#1292",
+    "orderCreatedAt": "2026-10-12T14:08:00Z",
+    "customerName": "Saad Chaudhry",
+    "phone": "+92 331 5569901",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2200,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-12T14:12:00Z",
+        "result": "answered",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "id": "rc_1294",
+    "orderId": 6100001294,
+    "orderName": "#1294",
+    "orderCreatedAt": "2026-10-12T12:32:00Z",
+    "customerName": "Faisal Butt",
+    "phone": "+92 345 9832703",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 1400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 82,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-10-12T12:38:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1295",
+    "orderId": 6100001295,
+    "orderName": "#1295",
+    "orderCreatedAt": "2026-10-12T07:59:00Z",
+    "customerName": "Junaid Aslam",
+    "phone": "+92 301 50500",
+    "city": "Sialkot",
+    "paymentMethod": "cod",
+    "orderTotal": 7050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "Invalid-Number"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1290",
+    "orderId": 6100001290,
+    "orderName": "#1290",
+    "orderCreatedAt": "2026-10-11T15:59:00Z",
+    "customerName": "Maryam Malik",
+    "phone": "+92 307 1862239",
+    "city": "Gujranwala",
+    "paymentMethod": "cod",
+    "orderTotal": 6400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 71,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-11T16:01:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1289",
+    "orderId": 6100001289,
+    "orderName": "#1289",
+    "orderCreatedAt": "2026-10-11T15:54:00Z",
+    "customerName": "Hassan Hussain",
+    "phone": "+92 346 3298438",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 5900,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 51,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-11T15:56:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-11T16:01:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1291",
+    "orderId": 6100001291,
+    "orderName": "#1291",
+    "orderCreatedAt": "2026-10-11T14:53:00Z",
+    "customerName": "Usman Siddiqui",
+    "phone": "+92 331 3551758",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 4750,
+    "currency": "PKR",
+    "event": "delivered",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 64,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-11T14:54:00Z",
+        "result": "answered",
+        "durationSeconds": 41
+      }
+    ]
+  },
+  {
+    "id": "rc_1287",
+    "orderId": 6100001287,
+    "orderName": "#1287",
+    "orderCreatedAt": "2026-10-10T17:34:00Z",
+    "customerName": "Umar Shah",
+    "phone": "+92 346 9276818",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 3700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "filtered",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 72,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1288",
+    "orderId": 6100001288,
+    "orderName": "#1288",
+    "orderCreatedAt": "2026-10-10T16:32:00Z",
+    "customerName": "Iqra Aslam",
+    "phone": "+92 312 2648766",
+    "city": "Karachi",
+    "paymentMethod": "prepaid",
+    "orderTotal": 10400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-10T16:35:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-10T16:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-10T16:55:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1284",
+    "orderId": 6100001284,
+    "orderName": "#1284",
+    "orderCreatedAt": "2026-10-09T17:30:00Z",
+    "customerName": "Maryam Aslam",
+    "phone": "+92 320 7131996",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 73,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-09T17:36:00Z",
+        "result": "answered",
+        "durationSeconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rc_1285",
+    "orderId": 6100001285,
+    "orderName": "#1285",
+    "orderCreatedAt": "2026-10-09T15:43:00Z",
+    "customerName": "Mahnoor Mirza",
+    "phone": "+92 315 7319358",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 7000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 42,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-09T15:44:00Z",
+        "result": "answered",
+        "durationSeconds": 25
+      }
+    ]
+  },
+  {
+    "id": "rc_1286",
+    "orderId": 6100001286,
+    "orderName": "#1286",
+    "orderCreatedAt": "2026-10-09T14:47:00Z",
+    "customerName": "Rabia Aslam",
+    "phone": "+92 321 0100612",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 4000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 70,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-09T14:53:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1282",
+    "orderId": 6100001282,
+    "orderName": "#1282",
+    "orderCreatedAt": "2026-10-08T17:07:00Z",
+    "customerName": "Ali Mirza",
+    "phone": "+92 313 9438505",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 4950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "filtered",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1281",
+    "orderId": 6100001281,
+    "orderName": "#1281",
+    "orderCreatedAt": "2026-10-08T14:32:00Z",
+    "customerName": "Bilal Shah",
+    "phone": "+92 347 4688411",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8250,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 81,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-08T14:34:00Z",
+        "result": "answered",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "id": "rc_1283",
+    "orderId": 6100001283,
+    "orderName": "#1283",
+    "orderCreatedAt": "2026-10-08T13:26:00Z",
+    "customerName": "Zeeshan Javed",
+    "phone": "+92 346 0611628",
+    "city": "Lahore",
+    "paymentMethod": "prepaid",
+    "orderTotal": 2700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "app_off",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1280",
+    "orderId": 6100001280,
+    "orderName": "#1280",
+    "orderCreatedAt": "2026-10-08T11:42:00Z",
+    "customerName": "Rabia Hussain",
+    "phone": "+92 308 5723210",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 1100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 83,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-08T11:48:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-08T11:53:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-08T12:08:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1276",
+    "orderId": 6100001276,
+    "orderName": "#1276",
+    "orderCreatedAt": "2026-10-07T16:17:00Z",
+    "customerName": "Fatima Mirza",
+    "phone": "+92 312 1032692",
+    "city": "Islamabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 7950,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 91,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-07T16:23:00Z",
+        "result": "answered",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "id": "rc_1279",
+    "orderId": 6100001279,
+    "orderName": "#1279",
+    "orderCreatedAt": "2026-10-07T13:30:00Z",
+    "customerName": "Fahad Aslam",
+    "phone": "+92 305 0596595",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "partial",
+    "addressScore": 57,
+    "tags": [
+      "RC-Cancelled",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-07T13:34:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-07T13:39:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1278",
+    "orderId": 6100001278,
+    "orderName": "#1278",
+    "orderCreatedAt": "2026-10-07T10:23:00Z",
+    "customerName": "Faisal Butt",
+    "phone": "+92 310 7200962",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 8650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-07T10:27:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-07T10:32:00Z",
+        "result": "answered",
+        "durationSeconds": 32
+      }
+    ]
+  },
+  {
+    "id": "rc_1277",
+    "orderId": 6100001277,
+    "orderName": "#1277",
+    "orderCreatedAt": "2026-10-07T10:16:00Z",
+    "customerName": "Fatima Tariq",
+    "phone": "+92 320 2937661",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 450,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "callback",
+    "skipReason": null,
+    "dtmf": "3",
+    "addressQuality": "complete",
+    "addressScore": 71,
+    "tags": [
+      "RC-Callback"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-07T10:19:00Z",
+        "result": "answered",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "id": "rc_1273",
+    "orderId": 6100001273,
+    "orderName": "#1273",
+    "orderCreatedAt": "2026-10-06T14:06:00Z",
+    "customerName": "Junaid Hussain",
+    "phone": "+92 307 3000622",
+    "city": "Quetta",
+    "paymentMethod": "prepaid",
+    "orderTotal": 1300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 75,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-06T14:07:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-06T14:12:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-06T14:27:00Z",
+        "result": "answered",
+        "durationSeconds": 36
+      }
+    ]
+  },
+  {
+    "id": "rc_1275",
+    "orderId": 6100001275,
+    "orderName": "#1275",
+    "orderCreatedAt": "2026-10-06T13:55:00Z",
+    "customerName": "Danish Mirza",
+    "phone": "+92 308 3266066",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 7300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 84,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-06T13:57:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
+  },
+  {
+    "id": "rc_1274",
+    "orderId": 6100001274,
+    "orderName": "#1274",
+    "orderCreatedAt": "2026-10-06T12:03:00Z",
+    "customerName": "Fatima Ahmed",
+    "phone": "+92 300 8778867",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 50,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-06T12:04:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-06T12:09:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-06T12:24:00Z",
+        "result": "answered",
+        "durationSeconds": 42
+      }
+    ]
+  },
+  {
+    "id": "rc_1272",
+    "orderId": 6100001272,
+    "orderName": "#1272",
+    "orderCreatedAt": "2026-10-05T11:40:00Z",
+    "customerName": "Faisal Hussain",
+    "phone": "+92 347 9110932",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 54,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-05T11:42:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-05T11:47:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-05T12:02:00Z",
+        "result": "answered",
+        "durationSeconds": 28
+      }
+    ]
+  },
+  {
+    "id": "rc_1271",
+    "orderId": 6100001271,
+    "orderName": "#1271",
+    "orderCreatedAt": "2026-10-05T10:35:00Z",
+    "customerName": "Iqra Abbasi",
+    "phone": "+92 308 5515889",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 4500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 94,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-05T10:39:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1269",
+    "orderId": 6100001269,
+    "orderName": "#1269",
+    "orderCreatedAt": "2026-10-04T16:48:00Z",
+    "customerName": "Bilal Nawaz",
+    "phone": "+92 315 7179004",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 2150,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 77,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-04T16:50:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-04T16:55:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1270",
+    "orderId": 6100001270,
+    "orderName": "#1270",
+    "orderCreatedAt": "2026-10-04T11:54:00Z",
+    "customerName": "Zeeshan Khan",
+    "phone": "+92 334 3098357",
+    "city": "Multan",
+    "paymentMethod": "prepaid",
+    "orderTotal": 7200,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 63,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-04T11:57:00Z",
+        "result": "answered",
+        "durationSeconds": 48
+      }
+    ]
+  },
+  {
+    "id": "rc_1267",
+    "orderId": 6100001267,
+    "orderName": "#1267",
+    "orderCreatedAt": "2026-10-04T09:48:00Z",
+    "customerName": "Sadia Qureshi",
+    "phone": "+92 312 7439869",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 5400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-04T09:49:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-04T09:54:00Z",
+        "result": "answered",
+        "durationSeconds": 38
+      }
+    ]
+  },
+  {
+    "id": "rc_1268",
+    "orderId": 6100001268,
+    "orderName": "#1268",
+    "orderCreatedAt": "2026-10-04T06:33:00Z",
+    "customerName": "Iqra Hussain",
+    "phone": "+92 347 5060746",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 1000,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 93,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-04T06:39:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-04T06:44:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1266",
+    "orderId": 6100001266,
+    "orderName": "#1266",
+    "orderCreatedAt": "2026-10-03T11:36:00Z",
+    "customerName": "Noor Chaudhry",
+    "phone": "+92 336 4503054",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 8950,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-03T11:41:00Z",
+        "result": "answered",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "id": "rc_1265",
+    "orderId": 6100001265,
+    "orderName": "#1265",
+    "orderCreatedAt": "2026-10-03T06:11:00Z",
+    "customerName": "Danish Khan",
+    "phone": "+92 333 1055180",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 950,
+    "currency": "PKR",
+    "event": "order_fulfilled",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-03T06:13:00Z",
+        "result": "answered",
+        "durationSeconds": 37
+      }
+    ]
+  },
+  {
+    "id": "rc_1264",
+    "orderId": 6100001264,
+    "orderName": "#1264",
+    "orderCreatedAt": "2026-10-03T06:09:00Z",
+    "customerName": "Bilal Nawaz",
+    "phone": "+92 303 9122637",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 4400,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 38,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-03T06:12:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-03T06:17:00Z",
+        "result": "answered",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "id": "rc_1260",
+    "orderId": 6100001260,
+    "orderName": "#1260",
+    "orderCreatedAt": "2026-10-02T16:57:00Z",
+    "customerName": "Sana Aslam",
+    "phone": "+92 346 0398591",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 6300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 41,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-02T17:02:00Z",
+        "result": "answered",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "id": "rc_1261",
+    "orderId": 6100001261,
+    "orderName": "#1261",
+    "orderCreatedAt": "2026-10-02T15:33:00Z",
+    "customerName": "Umar Iqbal",
+    "phone": "+92 334 7957211",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 8700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "incomplete",
+    "addressScore": 35,
+    "tags": [
+      "RC-Confirmed",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-02T15:37:00Z",
+        "result": "answered",
+        "durationSeconds": 46
+      }
+    ]
+  },
+  {
+    "id": "rc_1263",
+    "orderId": 6100001263,
+    "orderName": "#1263",
+    "orderCreatedAt": "2026-10-02T12:08:00Z",
+    "customerName": "Rabia Khan",
+    "phone": "+92 310 8760981",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 2500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "failed",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 80,
+    "tags": [],
+    "attempts": [
+      {
+        "at": "2026-10-02T12:10:00Z",
+        "result": "failed",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1262",
+    "orderId": 6100001262,
+    "orderName": "#1262",
+    "orderCreatedAt": "2026-10-02T11:06:00Z",
+    "customerName": "Bilal Tariq",
+    "phone": "+92 310 0647576",
+    "city": "Faisalabad",
+    "paymentMethod": "cod",
+    "orderTotal": 2700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 47,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-02T11:08:00Z",
+        "result": "answered",
+        "durationSeconds": 44
+      }
+    ]
+  },
+  {
+    "id": "rc_1258",
+    "orderId": 6100001258,
+    "orderName": "#1258",
+    "orderCreatedAt": "2026-10-01T15:43:00Z",
+    "customerName": "Mahnoor Qureshi",
+    "phone": "+92 305 3656913",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 3300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 78,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-01T15:49:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-01T15:54:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-10-01T16:09:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1259",
+    "orderId": 6100001259,
+    "orderName": "#1259",
+    "orderCreatedAt": "2026-10-01T09:05:00Z",
+    "customerName": "Hamza Abbasi",
+    "phone": "+92 322 6677709",
+    "city": "Multan",
+    "paymentMethod": "cod",
+    "orderTotal": 6500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 45,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-10-01T09:08:00Z",
+        "result": "answered",
+        "durationSeconds": 31
+      }
+    ]
+  },
+  {
+    "id": "rc_1254",
+    "orderId": 6100001254,
+    "orderName": "#1254",
+    "orderCreatedAt": "2026-09-30T12:36:00Z",
+    "customerName": "Fahad Javed",
+    "phone": "+92 307 3237723",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 4350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "incomplete",
+    "addressScore": 11,
+    "tags": [
+      "RC-Cancelled",
+      "Incomplete-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-30T12:42:00Z",
+        "result": "answered",
+        "durationSeconds": 33
+      }
+    ]
+  },
+  {
+    "id": "rc_1256",
+    "orderId": 6100001256,
+    "orderName": "#1256",
+    "orderCreatedAt": "2026-09-30T12:13:00Z",
+    "customerName": "Saad Tariq",
+    "phone": "+92 306 8849971",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 8300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "manual",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 90,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-30T12:19:00Z",
+        "result": "answered",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "id": "rc_1257",
+    "orderId": 6100001257,
+    "orderName": "#1257",
+    "orderCreatedAt": "2026-09-30T09:38:00Z",
+    "customerName": "Mahnoor Ahmed",
+    "phone": "+92 346 12340",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 8600,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "invalid_number",
+    "dtmf": null,
+    "addressQuality": "incomplete",
+    "addressScore": 34,
+    "tags": [
+      "Invalid-Number",
+      "Incomplete-Address"
+    ],
+    "attempts": []
+  },
+  {
+    "id": "rc_1255",
+    "orderId": 6100001255,
+    "orderName": "#1255",
+    "orderCreatedAt": "2026-09-30T05:09:00Z",
+    "customerName": "Rabia Iqbal",
+    "phone": "+92 303 0385275",
+    "city": "Rawalpindi",
+    "paymentMethod": "cod",
+    "orderTotal": 7050,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-30T05:11:00Z",
+        "result": "answered",
+        "durationSeconds": 27
+      }
+    ]
+  },
+  {
+    "id": "rc_1252",
+    "orderId": 6100001252,
+    "orderName": "#1252",
+    "orderCreatedAt": "2026-09-29T17:26:00Z",
+    "customerName": "Umar Siddiqui",
+    "phone": "+92 347 5952493",
+    "city": "Quetta",
+    "paymentMethod": "cod",
+    "orderTotal": 1100,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 49,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-29T17:31:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-29T17:36:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-29T17:51:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1251",
+    "orderId": 6100001251,
+    "orderName": "#1251",
+    "orderCreatedAt": "2026-09-29T11:55:00Z",
+    "customerName": "Sana Hussain",
+    "phone": "+92 346 3719465",
+    "city": "Faisalabad",
+    "paymentMethod": "prepaid",
+    "orderTotal": 9300,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 79,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-29T11:57:00Z",
+        "result": "answered",
+        "durationSeconds": 40
+      }
+    ]
+  },
+  {
+    "id": "rc_1253",
+    "orderId": 6100001253,
+    "orderName": "#1253",
+    "orderCreatedAt": "2026-09-29T07:44:00Z",
+    "customerName": "Ali Qureshi",
+    "phone": "+92 308 7812800",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 3800,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 88,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-29T07:46:00Z",
+        "result": "answered",
+        "durationSeconds": 35
+      }
+    ]
+  },
+  {
+    "id": "rc_1247",
+    "orderId": 6100001247,
+    "orderName": "#1247",
+    "orderCreatedAt": "2026-09-28T10:09:00Z",
+    "customerName": "Ali Hussain",
+    "phone": "+92 303 1141311",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 2550,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "not_initiated",
+    "skipReason": "filtered",
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 89,
+    "tags": [],
+    "attempts": []
+  },
+  {
+    "id": "rc_1248",
+    "orderId": 6100001248,
+    "orderName": "#1248",
+    "orderCreatedAt": "2026-09-28T09:57:00Z",
+    "customerName": "Imran Javed",
+    "phone": "+92 346 2226600",
+    "city": "Lahore",
+    "paymentMethod": "cod",
+    "orderTotal": 2500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 86,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-28T09:58:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-28T10:03:00Z",
+        "result": "answered",
+        "durationSeconds": 54
+      }
+    ]
+  },
+  {
+    "id": "rc_1249",
+    "orderId": 6100001249,
+    "orderName": "#1249",
+    "orderCreatedAt": "2026-09-28T06:00:00Z",
+    "customerName": "Maryam Raza",
+    "phone": "+92 310 0311675",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 3350,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 69,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-28T06:01:00Z",
+        "result": "answered",
+        "durationSeconds": 54
+      }
+    ]
+  },
+  {
+    "id": "rc_1250",
+    "orderId": 6100001250,
+    "orderName": "#1250",
+    "orderCreatedAt": "2026-09-28T05:37:00Z",
+    "customerName": "Noor Javed",
+    "phone": "+92 305 5539952",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 5750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 83,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-28T05:39:00Z",
+        "result": "answered",
+        "durationSeconds": 42
+      }
+    ]
+  },
+  {
+    "id": "rc_1246",
+    "orderId": 6100001246,
+    "orderName": "#1246",
+    "orderCreatedAt": "2026-09-27T17:17:00Z",
+    "customerName": "Imran Butt",
+    "phone": "+92 321 4778496",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 4550,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 82,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-27T17:18:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T17:23:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T17:38:00Z",
+        "result": "answered",
+        "durationSeconds": 45
+      }
+    ]
+  },
+  {
+    "id": "rc_1244",
+    "orderId": 6100001244,
+    "orderName": "#1244",
+    "orderCreatedAt": "2026-09-27T12:27:00Z",
+    "customerName": "Imran Aslam",
+    "phone": "+92 322 4660798",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 7700,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "complete",
+    "addressScore": 65,
+    "tags": [
+      "RC-Confirmed"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-27T12:32:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T12:37:00Z",
+        "result": "answered",
+        "durationSeconds": 24
+      }
+    ]
+  },
+  {
+    "id": "rc_1245",
+    "orderId": 6100001245,
+    "orderName": "#1245",
+    "orderCreatedAt": "2026-09-27T11:15:00Z",
+    "customerName": "Talha Qureshi",
+    "phone": "+92 347 4585500",
+    "city": "Karachi",
+    "paymentMethod": "cod",
+    "orderTotal": 4750,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "complete",
+    "addressScore": 95,
+    "tags": [
+      "RC-Pending"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-27T11:21:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T11:26:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T11:41:00Z",
+        "result": "busy",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1243",
+    "orderId": 6100001243,
+    "orderName": "#1243",
+    "orderCreatedAt": "2026-09-27T09:51:00Z",
+    "customerName": "Ayesha Khan",
+    "phone": "+92 347 0794151",
+    "city": "Peshawar",
+    "paymentMethod": "cod",
+    "orderTotal": 7650,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "confirmed",
+    "skipReason": null,
+    "dtmf": "1",
+    "addressQuality": "partial",
+    "addressScore": 51,
+    "tags": [
+      "RC-Confirmed",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-27T09:56:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T10:01:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-27T10:16:00Z",
+        "result": "answered",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "id": "rc_1241",
+    "orderId": 6100001241,
+    "orderName": "#1241",
+    "orderCreatedAt": "2026-09-26T17:33:00Z",
+    "customerName": "Mahnoor Butt",
+    "phone": "+92 306 6523679",
+    "city": "Islamabad",
+    "paymentMethod": "cod",
+    "orderTotal": 7800,
+    "currency": "PKR",
+    "event": "out_for_delivery",
+    "callType": "auto",
+    "status": "no_answer",
+    "skipReason": null,
+    "dtmf": null,
+    "addressQuality": "partial",
+    "addressScore": 55,
+    "tags": [
+      "RC-Pending",
+      "Partial-Address"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-26T17:35:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-26T17:40:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      },
+      {
+        "at": "2026-09-26T17:55:00Z",
+        "result": "no_answer",
+        "durationSeconds": 0
+      }
+    ]
+  },
+  {
+    "id": "rc_1242",
+    "orderId": 6100001242,
+    "orderName": "#1242",
+    "orderCreatedAt": "2026-09-26T08:24:00Z",
+    "customerName": "Faisal Javed",
+    "phone": "+92 322 1224062",
+    "city": "Hyderabad",
+    "paymentMethod": "cod",
+    "orderTotal": 4500,
+    "currency": "PKR",
+    "event": "order_placed",
+    "callType": "auto",
+    "status": "cancelled",
+    "skipReason": null,
+    "dtmf": "2",
+    "addressQuality": "complete",
+    "addressScore": 94,
+    "tags": [
+      "RC-Cancelled"
+    ],
+    "attempts": [
+      {
+        "at": "2026-09-26T08:26:00Z",
+        "result": "answered",
+        "durationSeconds": 32
+      }
+    ]
   }
 ]

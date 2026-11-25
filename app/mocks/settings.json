@@ -1,11 +1,116 @@
 {
-  "callerName": "RoboCall Demo Store",
-  "voice": "female-1",
-  "language": "en",
-  "timezone": "America/New_York",
-  "callingHoursStart": "09:00",
-  "callingHoursEnd": "20:00",
-  "retryDelayMinutes": 30,
-  "maxAttemptsPerOrder": 3,
-  "requireConsent": true
+  "general": {
+    "appEnabled": true,
+    "storeName": "Lorial PK",
+    "callMode": "auto",
+    "timezone": "Asia/Karachi",
+    "thankYouNoticeEnabled": false
+  },
+  "calling": {
+    "defaultVoiceId": "ur-female-1",
+    "ivrOptions": 3,
+    "callingWindow": "custom",
+    "callingHoursStart": "10:00",
+    "callingHoursEnd": "21:00",
+    "breakHours": [
+      {
+        "id": "jummah",
+        "label": "Jummah prayer (Fridays)",
+        "start": "13:00",
+        "end": "14:30"
+      },
+      {
+        "id": "iftar",
+        "label": "Iftar",
+        "start": "18:00",
+        "end": "19:00"
+      }
+    ],
+    "retryIntervalsMinutes": [
+      5,
+      15,
+      30
+    ],
+    "firstCallDelayMinutes": 2
+  },
+  "automation": {
+    "events": [
+      {
+        "event": "order_placed",
+        "enabled": true,
+        "voiceId": "ur-female-1",
+        "delayMinutes": 2
+      },
+      {
+        "event": "order_fulfilled",
+        "enabled": false,
+        "voiceId": "ur-female-1",
+        "delayMinutes": 0
+      },
+      {
+        "event": "out_for_delivery",
+        "enabled": true,
+        "voiceId": "ur-male-1",
+        "delayMinutes": 0
+      },
+      {
+        "event": "delivered",
+        "enabled": true,
+        "voiceId": "ur-female-1",
+        "delayMinutes": 120
+      },
+      {
+        "event": "delivery_failed",
+        "enabled": false,
+        "voiceId": "ur-male-1",
+        "delayMinutes": 0
+      },
+      {
+        "event": "order_cancelled",
+        "enabled": false,
+        "voiceId": "ur-female-1",
+        "delayMinutes": 0
+      }
+    ],
+    "codOnly": true,
+    "webOrdersOnly": true,
+    "minCodAmount": 0,
+    "excludedCities": [],
+    "excludedTags": [
+      "wholesale"
+    ],
+    "autoCancel": {
+      "enabled": false,
+      "afterHours": 24,
+      "cancelInShopify": false
+    },
+    "tags": {
+      "confirmed": "RC-Confirmed",
+      "cancelled": "RC-Cancelled",
+      "pending": "RC-Pending",
+      "callback": "RC-Callback",
+      "feedbackPositive": "Feedback-Happy",
+      "feedbackNegative": "Feedback-Unhappy"
+    }
+  },
+  "protection": {
+    "addressValidator": {
+      "enabled": true,
+      "incompleteBelow": 40,
+      "completeFrom": 60,
+      "incompleteTag": "Incomplete-Address",
+      "partialTag": "Partial-Address"
+    },
+    "duplicates": {
+      "enabled": true,
+      "windowMinutes": 30,
+      "skipCall": true,
+      "tag": "Duplicate-Order"
+    },
+    "invalidNumbers": {
+      "enabled": false,
+      "skipCall": true,
+      "tag": "Invalid-Number"
+    }
+  }
 }

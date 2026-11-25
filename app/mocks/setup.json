@@ -1,0 +1,42 @@
+[
+  {
+    "id": "plan",
+    "title": "Choose a plan",
+    "description": "Start your free trial. You're only charged for answered calls.",
+    "done": true,
+    "actionLabel": "View plans",
+    "href": "/app/plans"
+  },
+  {
+    "id": "voice",
+    "title": "Set up your call voice",
+    "description": "Pick a ready-made Urdu or English voice, or upload a recording with your store name.",
+    "done": false,
+    "actionLabel": "Set up voice",
+    "href": "/app/settings/calling"
+  },
+  {
+    "id": "automation",
+    "title": "Choose which orders get a call",
+    "description": "For example: only COD orders, only web orders, or skip certain cities.",
+    "done": true,
+    "actionLabel": "Review rules",
+    "href": "/app/settings/automation"
+  },
+  {
+    "id": "protection",
+    "title": "Turn on order protection",
+    "description": "Catch duplicate orders, invalid phone numbers, and incomplete addresses before you call.",
+    "done": false,
+    "actionLabel": "Turn on",
+    "href": "/app/settings/protection"
+  },
+  {
+    "id": "enable",
+    "title": "Start calling",
+    "description": "Switch calling on. New orders will get a confirmation call within minutes.",
+    "done": true,
+    "actionLabel": "Open settings",
+    "href": "/app/settings"
+  }
+]

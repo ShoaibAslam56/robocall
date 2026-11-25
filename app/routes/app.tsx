@@ -19,11 +19,16 @@ export default function App() {
     <AppProvider apiKey={apiKey}>
       <s-app-nav>
         <s-link href="/app">Dashboard</s-link>
+        <s-link href="/app/analytics">Analytics</s-link>
         <s-link href="/app/calls">Call logs</s-link>
-        <s-link href="/app/flows">Call flows</s-link>
+        <s-link href="/app/campaigns">Campaigns</s-link>
         <s-link href="/app/settings">Settings</s-link>
+        <s-link href="/app/plans">Plans</s-link>
       </s-app-nav>
-      <Outlet />
+      {/* Same page gutters as Reviews Junction and Loyalty: see .pk-layout. */}
+      <main className="pk-layout">
+        <Outlet />
+      </main>
     </AppProvider>
   );
 }

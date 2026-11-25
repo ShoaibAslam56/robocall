@@ -1,0 +1,7 @@
+[
+  { "id": "seg_all_subscribed", "name": "All customers who agreed to calls", "size": 3150 },
+  { "id": "seg_repeat", "name": "Customers with 2+ orders", "size": 1240 },
+  { "id": "seg_lahore", "name": "Customers in Lahore", "size": 912 },
+  { "id": "seg_abandoned_30d", "name": "Abandoned checkout in the last 30 days", "size": 318 },
+  { "id": "seg_inactive_90d", "name": "No order in 90 days", "size": 1475 }
+]

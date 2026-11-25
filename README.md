@@ -1,10 +1,13 @@
-# RoboCall: automated customer calls for Shopify
+# Pakka: COD confirmation calls for Shopify
 
-An embedded Shopify app that calls customers automatically: COD order
-confirmation, abandoned-cart recovery, and delivery reminders.
+An embedded Shopify app for Pakistani stores. It calls customers automatically to
+confirm cash-on-delivery orders (press 1 to confirm, 2 to cancel, 3 for a call-back),
+checks addresses, catches duplicate orders and invalid numbers, and runs bulk
+marketing call campaigns.
 
-> **Status: frontend only.** All screens run on mock JSON data. No calls are
-> placed and settings are not saved yet.
+> **Status: frontend only.** Every screen runs on mock JSON. No calls are placed,
+> nothing is saved, and billing isn't connected. Buttons that would do those things
+> show a "Demo mode" toast. Search the code for `useDemoToast` to find them all.
 
 ## Stack
 
@@ -15,19 +18,39 @@ confirmation, abandoned-cart recovery, and delivery reminders.
 - **App Bridge**: nav menu, toasts, and the save bar inside Shopify admin
 - **Vitest**: unit tests
 
+## Screens
+
+| Route | Screen |
+| --- | --- |
+| `/app` | Dashboard: "what to do now". Setup guide, recent calls, "needs your attention" |
+| `/app/analytics` | Analytics: "how it's going". KPIs, order-to-outcome funnel, daily chart, address check |
+| `/app/calls` | Call logs: search, filters (in the URL), pagination, CSV export |
+| `/app/calls/:id` | Call detail: attempts timeline, key pressed, tags, customer, address score |
+| `/app/campaigns` | Bulk campaigns list with results |
+| `/app/campaigns/new` | Create campaign: audience (segment, CSV, Google Sheet), recording, schedule, live cost estimate |
+| `/app/settings` | Settings with tabs: General, `calling`, `automation`, `protection` (one URL per tab) |
+| `/app/plans` | Current plan, usage, plan comparison, monthly cost estimator |
+
 ## Where things live
 
 | Path | What it is |
 | --- | --- |
-| `app/mocks/*.json` | Mock data (calls, flows, settings). Edit these to change what the UI shows |
+| `app/mocks/*.json` | Mock data. Edit these to change what the UI shows |
 | `app/types/robocall.ts` | Shared types. The JSON and the future API should match these |
-| `app/data/robocall.server.ts` | **Data layer.** Reads the JSON today; swap for real API/DB calls later. Routes don't change |
-| `app/utils/` | Pure helpers (stats, formatting) with tests next to them |
-| `app/components/CallsTable.tsx` | Calls table shared by Dashboard and Call logs |
-| `app/routes/app._index.tsx` | Dashboard |
-| `app/routes/app.calls.tsx` | Call logs with a status filter (`?status=failed`) |
-| `app/routes/app.flows.tsx` | Call flows and scripts |
-| `app/routes/app.settings.tsx` | Settings form (demo save) |
+| `app/data/robocall.server.ts` | **Data layer.** Reads the JSON today; swap for real API calls later. Routes don't change |
+| `app/utils/` | Pure logic (stats, dates, filters, pricing, CSV, validation), each with a `.test.ts` next to it |
+| `app/components/` | Shared UI: `AppPage` (width + spacing for every page), `Columns`, `Select`, `FieldRow`, `SettingsTabs`, `SettingsSection`, charts |
+| `app/hooks/useDomEvent.ts` | Listens to Polaris events. React 18 doesn't wire `onChange` on custom elements (see the comments) |
+
+## Polaris gotchas we hit (and how the code handles them)
+
+- `onChange` on `<s-select>`/`<s-text-field>` does nothing in React 18 → use `useDomEvent`.
+- `<s-select value="x">` shows the first option → use the `Select` component, which marks `<s-option selected>`.
+- `<s-page inlineSize="large">` drops the `aside` slot → we use the wide layout everywhere and the `Columns` component for side columns.
+- Header buttons only work as *direct* children of `<s-page>` → pass them through `AppPage`'s `primaryAction` / `secondaryActions` / `breadcrumb` props.
+- Chained `@container` conditions in `gridTemplateColumns` are invalid → use one condition, or `repeat(auto-fit, minmax(…))`.
+- Fields in `<s-stack direction="inline">` wrap onto separate lines → use `FieldRow`.
+- Booleans: pass `checked={x || undefined}`, never `checked={false}` (React 18 would write the string "false").
 
 ## Scripts
 

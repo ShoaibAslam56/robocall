@@ -1,0 +1,57 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter",
+    "monthlyUsd": 4,
+    "perPulseUsd": 0.02,
+    "orderLimit": 1000,
+    "trialDays": 3,
+    "recommended": false,
+    "features": [
+      "Order confirmation calls (press 1 or 2)",
+      "Automatic or manual calling",
+      "2 free retries",
+      "AI address check",
+      "Duplicate order detection",
+      "Call logs"
+    ],
+    "tagline": "For new stores testing COD confirmation.",
+    "basedOn": null
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "monthlyUsd": 12,
+    "perPulseUsd": 0.017,
+    "orderLimit": 2500,
+    "trialDays": 3,
+    "recommended": true,
+    "features": [
+      "Press 3 for a call-back",
+      "3 free retries with break hours",
+      "Filter by city, COD amount, and tags",
+      "Custom voice recordings",
+      "Delivery event calls",
+      "CSV export"
+    ],
+    "tagline": "For stores shipping COD orders every day.",
+    "basedOn": "starter"
+  },
+  {
+    "id": "scale",
+    "name": "Scale",
+    "monthlyUsd": 29,
+    "perPulseUsd": 0.015,
+    "orderLimit": null,
+    "trialDays": 3,
+    "recommended": false,
+    "features": [
+      "Bulk campaigns",
+      "Auto-cancel unconfirmed orders",
+      "Feedback calls after delivery",
+      "Priority WhatsApp support"
+    ],
+    "tagline": "For high-volume stores and marketing calls.",
+    "basedOn": "growth"
+  }
+]

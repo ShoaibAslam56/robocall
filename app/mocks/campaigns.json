@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cmp_105",
+    "name": "Winter collection launch",
+    "status": "running",
+    "audience": { "source": "segment", "label": "Customers with 2+ orders", "size": 1240 },
+    "voiceId": "custom-lorial-ur",
+    "createdAt": "2026-11-22T09:00:00Z",
+    "scheduledAt": "2026-11-24T06:00:00Z",
+    "stats": { "placed": 812, "answered": 503, "interested": 118, "optedOut": 9 }
+  },
+  {
+    "id": "cmp_106",
+    "name": "Black Friday early access",
+    "status": "scheduled",
+    "audience": { "source": "sheet", "label": "VIP list (Google Sheet)", "size": 430 },
+    "voiceId": "ur-female-1",
+    "createdAt": "2026-11-23T11:30:00Z",
+    "scheduledAt": "2026-11-27T07:00:00Z",
+    "stats": { "placed": 0, "answered": 0, "interested": 0, "optedOut": 0 }
+  },
+  {
+    "id": "cmp_104",
+    "name": "11.11 sale reminder",
+    "status": "completed",
+    "audience": { "source": "segment", "label": "All subscribed customers", "size": 3150 },
+    "voiceId": "custom-sale-1111",
+    "createdAt": "2026-11-08T10:00:00Z",
+    "scheduledAt": "2026-11-10T06:00:00Z",
+    "stats": { "placed": 3150, "answered": 2016, "interested": 402, "optedOut": 37 }
+  },
+  {
+    "id": "cmp_103",
+    "name": "Re-engage October cancellations",
+    "status": "completed",
+    "audience": { "source": "csv", "label": "october-cancelled.csv", "size": 186 },
+    "voiceId": "ur-male-1",
+    "createdAt": "2026-11-02T08:00:00Z",
+    "scheduledAt": "2026-11-03T07:00:00Z",
+    "stats": { "placed": 186, "answered": 97, "interested": 21, "optedOut": 6 }
+  },
+  {
+    "id": "cmp_107",
+    "name": "Restock alert: Khaddar suits",
+    "status": "draft",
+    "audience": { "source": "csv", "label": "No file yet", "size": 0 },
+    "voiceId": "ur-female-1",
+    "createdAt": "2026-11-24T08:15:00Z",
+    "scheduledAt": null,
+    "stats": { "placed": 0, "answered": 0, "interested": 0, "optedOut": 0 }
+  }
+]
