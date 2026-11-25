@@ -137,7 +137,7 @@ export default function CallLogs() {
         </s-button>
       }
     >
-      <s-section padding="none">
+      <s-section>
         <s-table
           ref={setTableRef}
           paginate
@@ -204,7 +204,7 @@ export default function CallLogs() {
             Try a different search or clear the filters to see every call.
           </EmptyState>
         ) : (
-          <s-box padding="small" paddingInline="base">
+          <s-box paddingBlockStart="small">
             <s-text color="subdued">
               {`Showing ${current.firstItem}–${current.lastItem} of ${formatNumber(current.totalItems)}`}
               {searchParams.get("page")

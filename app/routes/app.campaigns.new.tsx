@@ -11,8 +11,10 @@ import {
   listSegments,
   listVoices,
 } from "../data/robocall.server";
+import { Annotated } from "../components/Annotated";
 import { AppPage } from "../components/AppPage";
 import { Columns } from "../components/Columns";
+import { Notice } from "../components/Notice";
 import { FieldRow } from "../components/FieldRow";
 import { Select } from "../components/Select";
 import { useDemoToast } from "../hooks/useDemoToast";
@@ -189,164 +191,181 @@ export default function NewCampaign() {
       breadcrumb={{ label: "Campaigns", href: "/app/campaigns" }}
     >
       {canSendCampaigns ? null : (
-        <s-banner tone="info" heading="Campaigns are part of the Scale plan">
+        <Notice
+          heading="Campaigns are part of the Scale plan"
+          action={<s-button href="/app/plans">Compare plans</s-button>}
+        >
           You can build and save this campaign now. Upgrade when you&apos;re
           ready to send it.
-          <s-button slot="secondary-actions" href="/app/plans">
-            Compare plans
-          </s-button>
-        </s-banner>
+        </Notice>
       )}
 
       <Columns
         main={
           <>
-            <s-section heading="Campaign name">
-              <s-text-field
-                ref={nameRef}
-                label="Name"
-                labelAccessibilityVisibility="exclusive"
-                placeholder="e.g. Winter sale early access"
-                details="Only you see this."
-                error={errors.name}
-              />
-            </s-section>
-
-            <s-section heading="Who to call">
-              <s-stack direction="block" gap="small">
-                <s-choice-list
-                  ref={sourceRef}
-                  name="audienceSource"
-                  label="Audience source"
+            <s-section>
+              <Annotated
+                title="Campaign name"
+                description="A name to find this campaign later. Only you see it."
+              >
+                <s-text-field
+                  ref={nameRef}
+                  label="Name"
                   labelAccessibilityVisibility="exclusive"
-                >
-                  <s-choice value="segment" selected>
-                    Shopify customer segment
-                  </s-choice>
-                  <s-choice value="csv">Upload a CSV</s-choice>
-                  <s-choice value="sheet">Google Sheet</s-choice>
-                </s-choice-list>
-
-                {draft.source === "segment" ? (
-                  <Select
-                    ref={segmentRef}
-                    label="Segment"
-                    value={segmentId}
-                    error={errors.audience}
-                    options={[
-                      { value: NO_SEGMENT, label: "Choose a segment" },
-                      ...segments.map((s) => ({
-                        value: s.id,
-                        label: `${s.name} (${formatNumber(s.size)})`,
-                      })),
-                    ]}
-                  />
-                ) : null}
-
-                {draft.source === "csv" ? (
-                  <s-stack direction="block" gap="small-200">
-                    <s-drop-zone
-                      ref={dropRef}
-                      label="Customer list"
-                      accept=".csv,text/csv"
-                      accessibilityLabel="Upload a CSV of customers"
-                      error={errors.audience}
-                    />
-                    <s-text color="subdued">
-                      {csvFile
-                        ? `${csvFile.name}: ${formatNumber(csvFile.rows)} customers`
-                        : "Columns: name, phone. One customer per row."}
-                    </s-text>
-                  </s-stack>
-                ) : null}
-
-                {draft.source === "sheet" ? (
-                  <s-url-field
-                    ref={sheetRef}
-                    label="Google Sheet link"
-                    placeholder="https://docs.google.com/spreadsheets/…"
-                    details="Share the sheet as “Anyone with the link can view”."
-                    error={errors.sheetUrl}
-                  />
-                ) : null}
-
-                <s-text color="subdued">
-                  Only include customers who agreed to receive calls from your
-                  store.
-                </s-text>
-              </s-stack>
-            </s-section>
-
-            <s-section heading="Message">
-              <s-stack direction="block" gap="small">
-                <Select
-                  ref={voiceRef}
-                  label="Recording"
-                  value={voiceId}
-                  options={voices.map((v) => ({
-                    value: v.id,
-                    label: `${v.name} · ${v.durationSeconds}s`,
-                  }))}
+                  placeholder="e.g. Winter sale early access"
+                  error={errors.name}
                 />
-                <s-box padding="base" background="subdued" borderRadius="base">
-                  <s-stack direction="block" gap="small-200">
-                    <s-text type="strong">
-                      After the message, customers can press:
-                    </s-text>
-                    <s-text>
-                      1: I&apos;m interested (tagged so you can follow up)
-                    </s-text>
-                    <s-text>2: Stop campaign calls (always included)</s-text>
-                  </s-stack>
-                </s-box>
-                <s-link href="/app/settings/calling">
-                  Upload a new recording
-                </s-link>
-              </s-stack>
-            </s-section>
+              </Annotated>
 
-            <s-section heading="When to send">
-              <s-stack direction="block" gap="small">
-                <s-choice-list
-                  ref={sendModeRef}
-                  name="sendMode"
-                  label="Send time"
-                  labelAccessibilityVisibility="exclusive"
-                >
-                  <s-choice value="now" selected>
-                    Start now
-                  </s-choice>
-                  <s-choice value="later">Schedule for later</s-choice>
-                </s-choice-list>
+              <Annotated
+                title="Who to call"
+                description="A Shopify customer segment, a CSV upload, or a Google Sheet."
+              >
+                <s-stack direction="block" gap="small">
+                  <s-choice-list
+                    ref={sourceRef}
+                    name="audienceSource"
+                    label="Audience source"
+                    labelAccessibilityVisibility="exclusive"
+                  >
+                    <s-choice value="segment" selected>
+                      Shopify customer segment
+                    </s-choice>
+                    <s-choice value="csv">Upload a CSV</s-choice>
+                    <s-choice value="sheet">Google Sheet</s-choice>
+                  </s-choice-list>
 
-                {draft.sendMode === "later" ? (
-                  <FieldRow>
-                    <s-date-field
-                      ref={dateRef}
-                      label="Date"
-                      value={draft.date}
-                      allow={`${today}--`}
-                      error={errors.date}
-                    />
+                  {draft.source === "segment" ? (
                     <Select
-                      ref={timeRef}
-                      label="Start time"
-                      value={draft.time}
-                      options={timeSlots(
-                        callingHours.start,
-                        callingHours.end,
-                      ).map((slot) => ({
-                        value: slot,
-                        label: formatTimeLabel(slot),
-                      }))}
+                      ref={segmentRef}
+                      label="Segment"
+                      value={segmentId}
+                      error={errors.audience}
+                      options={[
+                        { value: NO_SEGMENT, label: "Choose a segment" },
+                        ...segments.map((s) => ({
+                          value: s.id,
+                          label: `${s.name} (${formatNumber(s.size)})`,
+                        })),
+                      ]}
                     />
-                  </FieldRow>
-                ) : null}
+                  ) : null}
 
-                <s-text color="subdued">
-                  {`Calls only go out between ${formatTimeLabel(callingHours.start)} and ${formatTimeLabel(callingHours.end)}, and pause during your break hours.`}
-                </s-text>
-              </s-stack>
+                  {draft.source === "csv" ? (
+                    <s-stack direction="block" gap="small-200">
+                      <s-drop-zone
+                        ref={dropRef}
+                        label="Customer list"
+                        accept=".csv,text/csv"
+                        accessibilityLabel="Upload a CSV of customers"
+                        error={errors.audience}
+                      />
+                      <s-text color="subdued">
+                        {csvFile
+                          ? `${csvFile.name}: ${formatNumber(csvFile.rows)} customers`
+                          : "Columns: name, phone. One customer per row."}
+                      </s-text>
+                    </s-stack>
+                  ) : null}
+
+                  {draft.source === "sheet" ? (
+                    <s-url-field
+                      ref={sheetRef}
+                      label="Google Sheet link"
+                      placeholder="https://docs.google.com/spreadsheets/…"
+                      details="Share the sheet as “Anyone with the link can view”."
+                      error={errors.sheetUrl}
+                    />
+                  ) : null}
+
+                  <s-text color="subdued">
+                    Only include customers who agreed to receive calls from your
+                    store.
+                  </s-text>
+                </s-stack>
+              </Annotated>
+
+              <Annotated
+                title="Message"
+                description="The recording customers hear, and what they can press after it."
+              >
+                <s-stack direction="block" gap="small">
+                  <Select
+                    ref={voiceRef}
+                    label="Recording"
+                    value={voiceId}
+                    options={voices.map((v) => ({
+                      value: v.id,
+                      label: `${v.name} · ${v.durationSeconds}s`,
+                    }))}
+                  />
+                  <s-box
+                    padding="base"
+                    background="subdued"
+                    borderRadius="base"
+                  >
+                    <s-stack direction="block" gap="small-200">
+                      <s-text type="strong">
+                        After the message, customers can press:
+                      </s-text>
+                      <s-text>
+                        1: I&apos;m interested (tagged so you can follow up)
+                      </s-text>
+                      <s-text>2: Stop campaign calls (always included)</s-text>
+                    </s-stack>
+                  </s-box>
+                  <s-link href="/app/settings/calling">
+                    Upload a new recording
+                  </s-link>
+                </s-stack>
+              </Annotated>
+
+              <Annotated
+                title="When to send"
+                description="Start right away, or pick a date and time."
+              >
+                <s-stack direction="block" gap="small">
+                  <s-choice-list
+                    ref={sendModeRef}
+                    name="sendMode"
+                    label="Send time"
+                    labelAccessibilityVisibility="exclusive"
+                  >
+                    <s-choice value="now" selected>
+                      Start now
+                    </s-choice>
+                    <s-choice value="later">Schedule for later</s-choice>
+                  </s-choice-list>
+
+                  {draft.sendMode === "later" ? (
+                    <FieldRow>
+                      <s-date-field
+                        ref={dateRef}
+                        label="Date"
+                        value={draft.date}
+                        allow={`${today}--`}
+                        error={errors.date}
+                      />
+                      <Select
+                        ref={timeRef}
+                        label="Start time"
+                        value={draft.time}
+                        options={timeSlots(
+                          callingHours.start,
+                          callingHours.end,
+                        ).map((slot) => ({
+                          value: slot,
+                          label: formatTimeLabel(slot),
+                        }))}
+                      />
+                    </FieldRow>
+                  ) : null}
+
+                  <s-text color="subdued">
+                    {`Calls only go out between ${formatTimeLabel(callingHours.start)} and ${formatTimeLabel(callingHours.end)}, and pause during your break hours.`}
+                  </s-text>
+                </s-stack>
+              </Annotated>
             </s-section>
 
             <s-stack direction="inline" gap="small" justifyContent="end">

@@ -20,7 +20,7 @@ export function CallsTableContent({ calls, timeZone }: CallsTableContentProps) {
         <s-table-header listSlot="primary">Order</s-table-header>
         <s-table-header listSlot="secondary">Customer</s-table-header>
         <s-table-header>City</s-table-header>
-        <s-table-header format="currency">Total</s-table-header>
+        <s-table-header>Total</s-table-header>
         <s-table-header>Trigger</s-table-header>
         <s-table-header listSlot="inline">Result</s-table-header>
         <s-table-header format="numeric">Attempts</s-table-header>
